@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your go-to hub for professional insights with a playful twist!</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Your go-to hub for professional insights with a playful twist!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 08:50:13 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A RAG Blueprint</title>
+      <link>http://localhost:1313/posts/gettingstartedincloudbasedai/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/gettingstartedincloudbasedai/</guid>
+      <description>A Getting Started with Cloud Based AI T</description>
+    </item>
+    <item>
+      <title>Best Practices In Architecting Cloud Applicaitons in AWS Cloud</title>
+      <link>http://localhost:1313/posts/bestpracticesinarchitectingaws/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/bestpracticesinarchitectingaws/</guid>
+      <description>Sources: https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE</description>
+    </item>
+    <item>
+      <title>Bits and Blueprints</title>
+      <link>http://localhost:1313/posts/rag/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/rag/</guid>
+      <description>RAG Chronicles 1 Understand the Domain Understand the Cusotmer Choose your tools and platforms Manage your data sources Manage your data pipleine Design your system Build, test and deploy User Experience Monitoring and Feedback Understand the Domain Since every busienss area has its own langauage and teminology&#xA;Figure out how to handle content Understand the Customer Choose your tools and platforms There are already a number of tools out there. At this point I would recommend the following: Use llamaindex Langchain is an alternative Use an off the shelf chatbot.</description>
+    </item>
+    <item>
+      <title>Bits and Bytes</title>
+      <link>http://localhost:1313/posts/bitsandblueprints/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
+      <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its be bascially a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on topics of interest to me&#xA;Some of this content will be edited and posted to my substack, medium and linkedin accounts.&#xA;Goals and Strategy The golas of this blog is to explore a wide range of ideas and concepts. Its a place to capture ideas and thoughts.</description>
+    </item>
+    <item>
+      <title>Bits and Bytes</title>
+      <link>http://localhost:1313/posts/businessbenefitsofcloudcomputing/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/businessbenefitsofcloudcomputing/</guid>
+      <description>Business Benefits of Cloud Computing Just in time infrastructure Little Upfront Infrastructure Investment More Efficient Resource Utilization Usage Based Costing Reduced Time to Market </description>
+    </item>
+    <item>
+      <title>Data Qaulity Will Be King in an AI World</title>
+      <link>http://localhost:1313/posts/dataqualitywillbeking/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/dataqualitywillbeking/</guid>
+      <description>Data Quality Will be King in an AI World </description>
+    </item>
+    <item>
+      <title>My WorstMistakesInTheCloud</title>
+      <link>http://localhost:1313/posts/myworstmistakesinthecloud/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/myworstmistakesinthecloud/</guid>
+      <description>Cloud Mistakes Here they are:&#xA;Running systems doing nothing Lift and Shift Naive Use of Cloud Storage Poor Planning Weak Governance No Strategy Shiny Object Syndrome Lack of Automation Lack of Monitoring Lack of Testing Lack of Security Lack of Backups Lack of Disaster Recovery Lack of Change Management Lack of Incident Response Lack of Incident Reporting Lack of Incident Review Lack of Incident Lessons Learned Lack of Incident Closure Lack of Incident Root Cause Analysis Lack of Incident Post Mortem Lack of Incident Retrospective Lack of Incident Action Items Lack of Incident Escalation </description>
+    </item>
+    <item>
+      <title>Ten Reasons To Regret Cloud Adoption</title>
+      <link>http://localhost:1313/posts/reasonstoavoidthecloud/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/reasonstoavoidthecloud/</guid>
+      <description>Plan:&#xA;ten specific reasons people have regretted going to the cloud Causes of why this happened How to avoid this Ten Reasons People Have Regretted Going to the Cloud Total costs did not actually go down Minimal savings on existing on-premise data centers and workloads Existing staff did not actually increase capacity and workload No noticeable improvement in service levels (availability, latency, etc) No increase in speed to market or value No noticeable improvement in security Causes:</description>
+    </item>
+    <item>
+      <title>Cloud Storage</title>
+      <link>http://localhost:1313/posts/cloudstorage/</link>
+      <pubDate>Mon, 04 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/cloudstorage/</guid>
+      <description>Cloud Storage When deciding if , when and how to store your data, it is important to understand the different cloud storage options available.</description>
+    </item>
+    <item>
+      <title>Corporate IT is a Kitchen</title>
+      <link>http://localhost:1313/posts/itkitchen/</link>
+      <pubDate>Sun, 03 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/itkitchen/</guid>
+      <description>Corporate IT is Like a Home Kitchen Internal IT departments are like the home cook that prepares the meals for the family.&#xA;What you will find:&#xA;Everyone will complain about your cooking and the meals you make. A few thank yous is all you can expect Everyone will want their own special meals. One person will want vegetarian only, and another will demand more meat. Evertone will ask for more spicy or less spicy.</description>
+    </item>
+  </channel>
+</rss>

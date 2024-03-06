@@ -1,11 +1,10 @@
 +++
-title = 'Bits and Blueprints'
-Bits 
+title = 'RAG Chronicles'
 date = 2024-03-05T08:50:13-05:00
-draft = false
+draft = true
 +++
 
-# RAG Chronicles 1
+## RAG Chronicles 1
 
 
 1. Understand the Domain
