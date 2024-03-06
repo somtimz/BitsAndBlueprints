@@ -9,6 +9,20 @@
     <lastBuildDate>Tue, 05 Mar 2024 08:50:13 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI and Your Career</title>
+      <link>http://localhost:1313/posts/aiandyourcareer/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/aiandyourcareer/</guid>
+      <description>Of course AI is the hosttest thing in tech now, so should you go all in or should you be wary?</description>
+    </item>
+    <item>
+      <title>Being Negative In the Workplace</title>
+      <link>http://localhost:1313/posts/beingnegativeintheworkplace/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/beingnegativeintheworkplace/</guid>
+      <description>Being Negative In the Workplace Oh boy, its really hard to be negative in the workplace, especailly when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.&#xA;What should yyou do if you find yourself in that situation.&#xA;The best solution is to leave. If you can&amp;rsquo;t leave, then you need to find a way to be positive in the workplace.</description>
+    </item>
+    <item>
       <title>Best Practices In Architecting Cloud Applications in AWS Cloud</title>
       <link>http://localhost:1313/posts/bestpracticesinarchitectingaws/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
@@ -20,7 +34,7 @@
       <link>http://localhost:1313/posts/bitsandblueprints/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
-      <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its be bascially a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on topics of interest to me&#xA;Some of this content will be edited and posted to my substack, medium and linkedin accounts.&#xA;Goals and Strategy The golas of this blog is to explore a wide range of ideas and concepts. Its a place to capture ideas and thoughts.</description>
+      <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on techncial topics of interest to me. I find that writing things is the best way to educate and understand any topic.&#xA;This blog will have some very techncial content that you might find in a design blueprint.&#xA;My areas of interest include:&#xA;AI System Design Solution Architecture IT Strategy IT Governance Cloud Enterprise Architecture Product Analysis Some of this content will be edited and posted to my substack, medium and linkedin accounts.</description>
     </item>
     <item>
       <title>Business Benefits of Cloud Computing</title>
