@@ -9,53 +9,53 @@
     <lastBuildDate>Tue, 05 Mar 2024 08:50:13 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A RAG Blueprint</title>
-      <link>http://localhost:1313/posts/gettingstartedincloudbasedai/</link>
-      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/gettingstartedincloudbasedai/</guid>
-      <description>A Getting Started with Cloud Based AI T</description>
-    </item>
-    <item>
-      <title>Best Practices In Architecting Cloud Applicaitons in AWS Cloud</title>
+      <title>Best Practices In Architecting Cloud Applications in AWS Cloud</title>
       <link>http://localhost:1313/posts/bestpracticesinarchitectingaws/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/bestpracticesinarchitectingaws/</guid>
-      <description>Sources: https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE</description>
+      <description>Best Practices In Architecting Cloud Applications in AWS Cloud Sources: https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE</description>
     </item>
     <item>
-      <title>Bits and Blueprints</title>
-      <link>http://localhost:1313/posts/rag/</link>
-      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/rag/</guid>
-      <description>RAG Chronicles 1 Understand the Domain Understand the Cusotmer Choose your tools and platforms Manage your data sources Manage your data pipleine Design your system Build, test and deploy User Experience Monitoring and Feedback Understand the Domain Since every busienss area has its own langauage and teminology&#xA;Figure out how to handle content Understand the Customer Choose your tools and platforms There are already a number of tools out there. At this point I would recommend the following: Use llamaindex Langchain is an alternative Use an off the shelf chatbot.</description>
-    </item>
-    <item>
-      <title>Bits and Bytes</title>
+      <title>Bits and Blueprint</title>
       <link>http://localhost:1313/posts/bitsandblueprints/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
       <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its be bascially a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on topics of interest to me&#xA;Some of this content will be edited and posted to my substack, medium and linkedin accounts.&#xA;Goals and Strategy The golas of this blog is to explore a wide range of ideas and concepts. Its a place to capture ideas and thoughts.</description>
     </item>
     <item>
-      <title>Bits and Bytes</title>
+      <title>Business Benefits of Cloud Computing</title>
       <link>http://localhost:1313/posts/businessbenefitsofcloudcomputing/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/businessbenefitsofcloudcomputing/</guid>
       <description>Business Benefits of Cloud Computing Just in time infrastructure Little Upfront Infrastructure Investment More Efficient Resource Utilization Usage Based Costing Reduced Time to Market </description>
     </item>
     <item>
-      <title>Data Qaulity Will Be King in an AI World</title>
+      <title>Data Quality Will Be King in an AI World</title>
       <link>http://localhost:1313/posts/dataqualitywillbeking/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/dataqualitywillbeking/</guid>
       <description>Data Quality Will be King in an AI World </description>
     </item>
     <item>
-      <title>My WorstMistakesInTheCloud</title>
+      <title>Getting Started with Cloud Based AI</title>
+      <link>http://localhost:1313/posts/gettingstartedincloudbasedai/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/gettingstartedincloudbasedai/</guid>
+      <description>Getting Started with Cloud Based AI T</description>
+    </item>
+    <item>
+      <title>My Worst Mistakes In The Cloud</title>
       <link>http://localhost:1313/posts/myworstmistakesinthecloud/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/myworstmistakesinthecloud/</guid>
       <description>Cloud Mistakes Here they are:&#xA;Running systems doing nothing Lift and Shift Naive Use of Cloud Storage Poor Planning Weak Governance No Strategy Shiny Object Syndrome Lack of Automation Lack of Monitoring Lack of Testing Lack of Security Lack of Backups Lack of Disaster Recovery Lack of Change Management Lack of Incident Response Lack of Incident Reporting Lack of Incident Review Lack of Incident Lessons Learned Lack of Incident Closure Lack of Incident Root Cause Analysis Lack of Incident Post Mortem Lack of Incident Retrospective Lack of Incident Action Items Lack of Incident Escalation </description>
+    </item>
+    <item>
+      <title>RAG Chronicles</title>
+      <link>http://localhost:1313/posts/rag/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/rag/</guid>
+      <description>RAG Chronicles 1 This is article 1 about building a RAG application.&#xA;Understand the Domain Understand the Customer Choose your tools and platforms Manage your data sources Manage your data pipleine Design your system Build, test and deploy User Experience Monitoring and Feedback Understand the Domain Every human domain has its own special language and terminology&#xA;Figure out how to handle content Understand the Customer Choose your tools and platforms There are already a number of tools out there.</description>
     </item>
     <item>
       <title>Ten Reasons To Regret Cloud Adoption</title>
