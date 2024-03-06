@@ -6,9 +6,10 @@ draft = true
 
 ## RAG Chronicles 1
 
+This is article 1 about building a RAG application.
 
 1. Understand the Domain
-2. Understand the Cusotmer
+2. Understand the Customer
 3. Choose your tools and platforms
 4. Manage your data sources
 5. Manage your data pipleine
@@ -21,7 +22,7 @@ draft = true
 
 ### Understand the Domain
 
-Since every busienss area has its own langauage and teminology
+Every human domain has its own special language and terminology
 
 - Figure out how to handle content
 
