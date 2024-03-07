@@ -1,5 +1,5 @@
 +++
-title = 'How to use McKinsey's SCR framework'
+title = 'How to use McKinsey SCR framework'
 date = 2024-03-05T08:50:13-05:00
 draft = true
 +++

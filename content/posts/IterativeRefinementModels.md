@@ -1,6 +1,14 @@
 
++++
+title = 'Iterative Refinement in LLMs'
+date = 2024-03-07T08:50:13-05:00
+draft = true
++++
 
+Q to Gemini:
+Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this 
 
+Gemini A:
 Yes, this is a fascinating idea! While it's not a common mainstream method in LLMs, there's definitely merit and ongoing research exploring similar approaches. Here's a breakdown:
 
 **The Concept**
@@ -27,6 +35,9 @@ Your intuition is correct – if we realize a past token choice was suboptimal, 
 
 **Let me know if you'd like links to specific research papers. It's a less mainstream area, but a very interesting one for improving LLM generation!** 
 
+Q: Does the model calculate or retain prababilities for words already generated? Are these used in any way during inference or training?
+
+Gemini Answer: 
 Absolutely! Here's a look at some relevant research directions on revising tokens or improving LLM generation through techniques that indirectly address the problem:
 
 **Direct Token Revision**
