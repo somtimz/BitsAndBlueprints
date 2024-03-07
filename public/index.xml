@@ -9,6 +9,34 @@
     <lastBuildDate>Tue, 05 Mar 2024 08:50:13 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>100 Questions to Test Your Knowledge of AWS AI Cloud Services</title>
+      <link>http://localhost:1313/posts/quizonawsaiservices/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/quizonawsaiservices/</guid>
+      <description>100 Questions to Test Your Knowledge of AWS AI Cloud Services&#xA;Define these terms:&#xA;Amazon Bedrock Amazon Titan Agents for Amazon Bedrock Third party Bedrock models Amazon Sagemaker Jumpstart Public models Proprietary models Managed Infrastructure Sagemaker model training Sagemaker model deployment Amazon OpenSearch (k-NN plugin) Amazon Kendra Amazon Aurora/RDS for postgresSQL (pgvector) AWS Trainium AWS Inferentia Amazon CodeWhisperer AWs HealthScribe Generative Bi in Amazon QuickSight When should you use:&#xA;Copy list above Why use Bedrock</description>
+    </item>
+    <item>
+      <title>A Presentation about AWS AI Services</title>
+      <link>http://localhost:1313/posts/aws-ai-services-presentation/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/aws-ai-services-presentation/</guid>
+      <description>Leveraging AWS Cloud for AI&#xA;Situation You have an orderly and stable IT infrastructure Complication You want to use AI Setting up AI is hard and expensive slides hsowing the costs of AI models Slide showing skills shortages You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution You want some flexibility and choice in the tools and platforms you use You think that if you don&amp;rsquo;t get going now, you will never catch up Resolution Leverage AWS Bedrock and AWS Sagemaker </description>
+    </item>
+    <item>
+      <title>AI and Your Career</title>
+      <link>http://localhost:1313/posts/aiandyourcareer/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/aiandyourcareer/</guid>
+      <description>Of course AI is the hosttest thing in tech now, so should you go all in or should you be wary?</description>
+    </item>
+    <item>
+      <title>Being Negative In the Workplace</title>
+      <link>http://localhost:1313/posts/beingnegativeintheworkplace/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/beingnegativeintheworkplace/</guid>
+      <description>Being Negative In the Workplace Oh boy, its really hard to be negative in the workplace, especailly when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.&#xA;What should yyou do if you find yourself in that situation.&#xA;The best solution is to leave. If you can&amp;rsquo;t leave, then you need to find a way to be positive in the workplace.</description>
+    </item>
+    <item>
       <title>Best Practices In Architecting Cloud Applications in AWS Cloud</title>
       <link>http://localhost:1313/posts/bestpracticesinarchitectingaws/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
@@ -20,7 +48,7 @@
       <link>http://localhost:1313/posts/bitsandblueprints/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
-      <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its be bascially a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on topics of interest to me&#xA;Some of this content will be edited and posted to my substack, medium and linkedin accounts.&#xA;Goals and Strategy The golas of this blog is to explore a wide range of ideas and concepts. Its a place to capture ideas and thoughts.</description>
+      <description>Bits and Blueprints Bits and Blueprints is my informal blog, where I write down and explore ideas. Its a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on techncial topics of interest to me. I find that writing things is the best way to educate and understand any topic.&#xA;This blog will have some very techncial content that you might find in a design blueprint.&#xA;My areas of interest include:&#xA;AI System Design Solution Architecture IT Strategy IT Governance Cloud Enterprise Architecture Product Analysis Some of this content will be edited and posted to my substack, medium and linkedin accounts.</description>
     </item>
     <item>
       <title>Business Benefits of Cloud Computing</title>
@@ -77,6 +105,27 @@
       <pubDate>Sun, 03 Mar 2024 08:50:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/itkitchen/</guid>
       <description>Corporate IT is Like a Home Kitchen Internal IT departments are like the home cook that prepares the meals for the family.&#xA;What you will find:&#xA;Everyone will complain about your cooking and the meals you make. A few thank yous is all you can expect Everyone will want their own special meals. One person will want vegetarian only, and another will demand more meat. Evertone will ask for more spicy or less spicy.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/howtousescrframework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/howtousescrframework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/iterativerefinementmodels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iterativerefinementmodels/</guid>
+      <description>Yes, this is a fascinating idea! While it&amp;rsquo;s not a common mainstream method in LLMs, there&amp;rsquo;s definitely merit and ongoing research exploring similar approaches. Here&amp;rsquo;s a breakdown:&#xA;The Concept&#xA;Your intuition is correct – if we realize a past token choice was suboptimal, revising it could lead to a globally better output. This is analogous to how humans sometimes rewrite earlier parts of a sentence as they gain a clearer understanding of their message.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/promptengineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/promptengineering/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
