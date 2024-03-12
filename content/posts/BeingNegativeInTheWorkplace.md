@@ -12,4 +12,3 @@ What should yyou do if you find yourself in that situation.
 
 - The best solution is to leave.
 - If you can't leave, then you need to find a way to be positive in the workplace.
-- 

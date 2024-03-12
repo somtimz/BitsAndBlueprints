@@ -2,58 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-03-07T08:50:13-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-09T09:27:45-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai/ailibraries/langchain/</loc>
+    <lastmod>2024-03-09T09:27:45-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-03-09T09:27:45-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai/mlops/chatbots/</loc>
+    <lastmod>2024-03-09T09:21:20-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai/mlops/mlops/</loc>
+    <lastmod>2024-03-09T08:58:05-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai/iterativerefinementmodels/</loc>
     <lastmod>2024-03-07T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/quizonawsaiservices/</loc>
+    <loc>http://localhost:1313/posts/ai/promptengineering/</loc>
+    <lastmod>2024-03-07T08:50:13-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cloud/quizonawsaiservices/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/aws-ai-services-presentation/</loc>
-    <lastmod>2024-03-05T08:50:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/aiandyourcareer/</loc>
+    <loc>http://localhost:1313/posts/ai/aiandyourcareer/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/beingnegativeintheworkplace/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bestpracticesinarchitectingaws/</loc>
+    <loc>http://localhost:1313/posts/cloud/bestpracticesinarchitectingaws/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bitsandblueprints/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/businessbenefitsofcloudcomputing/</loc>
+    <loc>http://localhost:1313/posts/cloud/businessbenefitsofcloudcomputing/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/dataqualitywillbeking/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gettingstartedincloudbasedai/</loc>
+    <loc>http://localhost:1313/posts/cloud/gettingstartedincloudbasedai/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/howtousescrframework/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/myworstmistakesinthecloud/</loc>
+    <loc>http://localhost:1313/posts/cloud/myworstmistakesinthecloud/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rag/</loc>
+    <loc>http://localhost:1313/posts/presentations/aws-ai-services-presentation/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/reasonstoavoidthecloud/</loc>
+    <loc>http://localhost:1313/posts/ai/rag/</loc>
     <lastmod>2024-03-05T08:50:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cloudstorage/</loc>
+    <loc>http://localhost:1313/posts/cloud/reasonstoavoidthecloud/</loc>
+    <lastmod>2024-03-05T08:50:13-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cloud/cloudstorage/</loc>
     <lastmod>2024-03-04T08:50:13-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/itkitchen/</loc>
     <lastmod>2024-03-03T08:50:13-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/iterativerefinementmodels/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

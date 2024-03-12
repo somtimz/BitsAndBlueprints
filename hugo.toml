@@ -1,5 +1,5 @@
 baseURL = 'https://BitsAndBlueprints.org/'
 languageCode = 'en-us'
-title = "Your go-to hub for professional insights with a playful twist!"
+title = "An eclectic mix of technical content!"
 
 theme = 'ananke'
