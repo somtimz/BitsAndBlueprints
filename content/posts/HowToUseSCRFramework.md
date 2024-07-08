@@ -5,4 +5,3 @@ draft = true
 +++
 
 The Situation-Complication-Resolution (SCR) Framework provides a structure for clearly defining business challenges and outlining strategies and solutions.
-

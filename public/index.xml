@@ -2,165 +2,263 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>An eclectic mix of technical content!</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:63665/</link>
     <description>Recent content on An eclectic mix of technical content!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2024 09:27:45 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 08:50:13 -0500</lastBuildDate>
+    <atom:link href="http://localhost:63665/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LangChain</title>
-      <link>http://localhost:1313/posts/ai/ailibraries/langchain/</link>
-      <pubDate>Sat, 09 Mar 2024 09:27:45 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/ailibraries/langchain/</guid>
-      <description></description>
+      <title>Cross Pollination</title>
+      <link>http://localhost:63665/posts/crosspollination/cp-overview/</link>
+      <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/crosspollination/cp-overview/</guid>
+      <description>Its very useful to borrow concepts from one field and apply it to other fields. Here is some terminonology that can help illustrate:&#xA;Cross-pollination: The transfer of ideas between different fields to produce new insights and solutions. It emphasizes the fruitful exchange that can occur across disciplines.&#xA;Knowledge Transfer: Knowledge transfer focuses on the deliberate application of knowledge or practices from one domain to another to solve a problem or create something new.</description>
     </item>
     <item>
-      <title>ChatBots</title>
-      <link>http://localhost:1313/posts/ai/mlops/chatbots/</link>
+      <title>Inspired by GitOps</title>
+      <link>http://localhost:63665/posts/crosspollination/inspriedbygitops/</link>
+      <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/crosspollination/inspriedbygitops/</guid>
+      <description>Part X of my Exploration of Lateral Thinking and CrossPollination&#xA;Any concepts that help automate, standardize, and streamline any business or other operations are worth exploring.&#xA;GitOps is a framework for optimizing continuous delivery and continuous deployment. GitOps takes the core principles of Git - version control, pull requests, and declarative configuration - and applies them to infrastructure and application deployment.&#xA;The principles of GitOps can be applied to a business function or operations, such as issuing loans, processing claims, delivering health care saervices and so on.</description>
+    </item>
+    <item>
+      <title>Inspired by GitOps</title>
+      <link>http://localhost:63665/posts/it-strategy/inspiredbygitops/</link>
+      <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/it-strategy/inspiredbygitops/</guid>
+      <description>Its often useful to borrow concepts from one area and apply it to another.&#xA;Today lets looks</description>
+    </item>
+    <item>
+      <title>Bad Governance Models</title>
+      <link>http://localhost:63665/posts/it-strategy/goodbadgovernance/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/it-strategy/goodbadgovernance/</guid>
+      <description>Publish BEFORE April 9&#xA;ID: Good governance message is widely &amp;hellip;. The message that is heard constantly in corporate IT is the importance of good governance.&#xA;ID: Good governance is uncommon&amp;hellip; However, more often than not, the governance, I see in place is anything but good. Good governance is widely misunderstood and often implemented poorly as a result.&#xA;Bad governance is unfortunately a giant reason why so much investment in technology is wasted and one reason that corporate IT is often not a signifcant player when corporate strategy is being defined and formulated.</description>
+    </item>
+    <item>
+      <title>GraphQL</title>
+      <link>http://localhost:63665/posts/softwareengineering/graphql/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/softwareengineering/graphql/</guid>
+      <description>When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.&#xA;When to Use GraphQL&#xA;When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL</description>
+    </item>
+    <item>
+      <title>What are Vector Databases Good For?</title>
+      <link>http://localhost:63665/vectordbusecases/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/vectordbusecases/</guid>
+      <description> RAG Dense Search RAG Hybrid RAG Recommendations Search Similarity Search Facial Other Anomaly Detection RAG </description>
+    </item>
+    <item>
+      <title>RAG Notes</title>
+      <link>http://localhost:63665/posts/ai/rag/rag-notes/</link>
+      <pubDate>Wed, 03 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/ai/rag/rag-notes/</guid>
+      <description>What Problems Does LlamaIndex Solve? A way to ingest data into a vector store A way to create queries Notes about LlamaIndex Note that Behind the Scenes:&#xA;the input documents are loaded&#xA;the input documents are chunked, embeddings created and stored in a vector db&#xA;The vector db is created a query engine combines:&#xA;Retriever turns the question into an embedding that can be sued to call the vector db Calls the vector db to get the best matches Performs postprocessing ion retreived nodes Synthesizes the query to a LLM</description>
+    </item>
+    <item>
+      <title>RunningNotes</title>
+      <link>http://localhost:63665/posts/runningnotes/</link>
+      <pubDate>Wed, 13 Mar 2024 06:39:38 -0400</pubDate>
+      <guid>http://localhost:63665/posts/runningnotes/</guid>
+      <description>My technical diary on what I&amp;rsquo;m learning about AI, the Cloud, System design, Programming(Python, React, Node, Spring), and strategy.&#xA;RAG - Multimodal and More RAG Foundations RAg Enhancements RAG and LLM Integrations RAG Retrieval Two types of retrieval&#xA;Sparse retrieval (ie BM25) Dense retrival (ie Vector embedding) Diffusion Models Diffusion models are a family of deep generative models that can create realistic and diverse samples of data, such as images, texts and videos.</description>
+    </item>
+    <item>
+      <title>LangChain A multi-factor review of the AI Library</title>
+      <link>http://localhost:63665/posts/ai/ailibraries/langchain/</link>
+      <pubDate>Sat, 09 Mar 2024 09:27:45 -0500</pubDate>
+      <guid>http://localhost:63665/posts/ai/ailibraries/langchain/</guid>
+      <description>Inspecting LangChain from the follwoign perspectives&#xA;Use Cases Supported Capabilities Feature Set Technologies Used Architecture Security Design Scalability Issues Future Work/Roadmap Successes </description>
+    </item>
+    <item>
+      <title>RAG Based ChatBots</title>
+      <link>http://localhost:63665/posts/ai/rag/ragchatbots/</link>
       <pubDate>Sat, 09 Mar 2024 09:21:20 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/mlops/chatbots/</guid>
-      <description></description>
+      <guid>http://localhost:63665/posts/ai/rag/ragchatbots/</guid>
+      <description>TODO: Organize into a series of RAG based&#xA;If I was to build a course&#xA;Very simple getting started Purpose of this post:&#xA;To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM + RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions </description>
     </item>
     <item>
       <title>MLOps - Skills Required</title>
-      <link>http://localhost:1313/posts/ai/mlops/mlops/</link>
+      <link>http://localhost:63665/posts/ai/mlops/mlops/</link>
       <pubDate>Sat, 09 Mar 2024 08:58:05 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/mlops/mlops/</guid>
+      <guid>http://localhost:63665/posts/ai/mlops/mlops/</guid>
       <description>Here are a list of skillsrequired for a career in MLOPs?&#xA;Programming: Python Tools (IDEs, testing, build tools, CI/CD) Libraries (Langchain, Llamaindex) ML Chatbots Data Engineering (pandas) Containers and Kubernetes ML Fundamentals Deep Learning Foundation Model - Architectures LLM Vision models MMLU Prompt Engineering Embedding, Vector Stores RAG MLOps MLOps Principles MLOps Components Version Control &amp;amp; CI/CD Orchestration Experminet tracking (MLflow) Data lineage Model training &amp;amp; serving Monitoring and Observability Infrasrucutre as Code Terraform BLIP CloudFormation References https://medium.</description>
     </item>
     <item>
       <title>Iterative Refinement in LLMs</title>
-      <link>http://localhost:1313/posts/ai/iterativerefinementmodels/</link>
+      <link>http://localhost:63665/posts/ai/iterativerefinementmodels/</link>
       <pubDate>Thu, 07 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/iterativerefinementmodels/</guid>
+      <guid>http://localhost:63665/posts/ai/iterativerefinementmodels/</guid>
       <description>Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this&#xA;Gemini A: Yes, this is a fascinating idea!</description>
     </item>
     <item>
       <title>Prompt Engineering and In Context Learning</title>
-      <link>http://localhost:1313/posts/ai/promptengineering/</link>
+      <link>http://localhost:63665/posts/ai/promptengineering/</link>
       <pubDate>Thu, 07 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/promptengineering/</guid>
+      <guid>http://localhost:63665/posts/ai/promptengineering/</guid>
       <description>Status: Content: 10% Editing 10% Value: Medium&#xA;TODO: Look up arxiv paper on good/bad prompt engineering&#xA;Good prompt engineering is the simplest most accessible way to get value from AI models.&#xA;Guide to Prompting Make prompts as clear and concise as possible Clarify or remove ambiguities. Ensure the who, what, where, why and how are explicit and clearly defined Keep prompts short as feasible Be wary of the lost in the middle effect of long context windows Long prompts are both slower and more expensive than long prompts Add content to the context if it will help with the answer Use prompt completion pairs in the context to provide few shot learning examples Leverage the prompt structures Use the roles that models provide Leverage the system, userr and assistant roles Use instructions to guide the prompt completion Prefer to give instrucitons raher than ask questions Not what is the heaviest element, but&amp;gt; Complete the sentence:&#xD;The heaviest element commonly found in nature is: Your instructions should be at the front for short prompts and at the end for long prompts Use Chain of Thought or Reason Step by Step Experiment with prompts.</description>
     </item>
     <item>
       <title>100 Questions to Test Your Knowledge of AWS AI Cloud Services</title>
-      <link>http://localhost:1313/posts/cloud/quizonawsaiservices/</link>
+      <link>http://localhost:63665/posts/cloud/quizonawsaiservices/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/quizonawsaiservices/</guid>
+      <guid>http://localhost:63665/posts/cloud/quizonawsaiservices/</guid>
       <description>100 Questions to Test Your Knowledge of AWS AI Cloud Services&#xA;Define these terms:&#xA;Amazon Bedrock Amazon Titan Agents for Amazon Bedrock Third party Bedrock models Amazon Sagemaker Jumpstart Public models Proprietary models Managed Infrastructure Sagemaker model training Sagemaker model deployment Amazon OpenSearch (k-NN plugin) Amazon Kendra Amazon Aurora/RDS for postgresSQL (pgvector) AWS Trainium AWS Inferentia Amazon CodeWhisperer AWs HealthScribe Generative Bi in Amazon QuickSight When should you use Bedrock and when should you use Sagemaker?</description>
     </item>
     <item>
       <title>AI and Your Career</title>
-      <link>http://localhost:1313/posts/ai/aiandyourcareer/</link>
+      <link>http://localhost:63665/posts/ai/aiandyourcareer/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/aiandyourcareer/</guid>
+      <guid>http://localhost:63665/posts/ai/aiandyourcareer/</guid>
       <description>Of course AI is the hottest thing in tech now, so should you go all in or should you be wary when planning your career?</description>
     </item>
     <item>
       <title>AI Use Cases</title>
-      <link>http://localhost:1313/posts/ai/aiusecases/</link>
+      <link>http://localhost:63665/posts/ai/aiusecases/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/aiusecases/</guid>
+      <guid>http://localhost:63665/posts/ai/aiusecases/</guid>
       <description>Replace this with this: Some use cases to consider include:&#xA;Intelligent Search Text summarization Rewriting Information extraction Question answering Detecting toxic or harmful content Classification and content moderation Conversational interface Translation Automated customer-support chatbot Dialog Summarization Content Moderation Personalized Product Videos Source Code Generation Reasoning Mask personally identifiable information Personalized marketing and ads </description>
     </item>
     <item>
       <title>Being Negative In the Workplace</title>
-      <link>http://localhost:1313/posts/beingnegativeintheworkplace/</link>
+      <link>http://localhost:63665/posts/beingnegativeintheworkplace/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/beingnegativeintheworkplace/</guid>
+      <guid>http://localhost:63665/posts/beingnegativeintheworkplace/</guid>
       <description>Being Negative In the Workplace Oh boy, its really hard to be negative in the workplace, especailly when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.&#xA;What should yyou do if you find yourself in that situation.&#xA;The best solution is to leave. If you can&amp;rsquo;t leave, then you need to find a way to be positive in the workplace.</description>
     </item>
     <item>
       <title>Best Practices In Architecting AWS Cloud Applications</title>
-      <link>http://localhost:1313/posts/cloud/bestpracticesinarchitectingaws/</link>
+      <link>http://localhost:63665/posts/cloud/bestpracticesinarchitectingaws/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/bestpracticesinarchitectingaws/</guid>
+      <guid>http://localhost:63665/posts/cloud/bestpracticesinarchitectingaws/</guid>
       <description>Best Practices In Architecting AWS Cloud Applications Sources: https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE</description>
     </item>
     <item>
       <title>Bits and Blueprint</title>
-      <link>http://localhost:1313/posts/bitsandblueprints/</link>
+      <link>http://localhost:63665/posts/bitsandblueprints/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
+      <guid>http://localhost:63665/posts/bitsandblueprints/</guid>
       <description>Bits and Blueprints Bits and Blueprints is my informal blog, online scrapbook where I write down and explore ideas.&#xA;Its a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on techncial topics of interest to me.&#xA;The purpose is to trabslate thoughts, readings and other informaiton in to some tnagilbe items. Writing is one of the best ways to educate and understand any topic.&#xA;This blog will have some very techncial content that you might find in a design blueprint.</description>
     </item>
     <item>
       <title>Business Benefits of Cloud Computing</title>
-      <link>http://localhost:1313/posts/cloud/businessbenefitsofcloudcomputing/</link>
+      <link>http://localhost:63665/posts/cloud/businessbenefitsofcloudcomputing/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/businessbenefitsofcloudcomputing/</guid>
+      <guid>http://localhost:63665/posts/cloud/businessbenefitsofcloudcomputing/</guid>
       <description>Business Benefits of Cloud Computing Just in time infrastructure Little Upfront Infrastructure Investment More Efficient Resource Utilization Usage Based Costing Reduced Time to Market </description>
     </item>
     <item>
       <title>Data Quality Will Be King in an AI World</title>
-      <link>http://localhost:1313/posts/dataqualitywillbeking/</link>
+      <link>http://localhost:63665/posts/dataqualitywillbeking/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/dataqualitywillbeking/</guid>
+      <guid>http://localhost:63665/posts/dataqualitywillbeking/</guid>
       <description>Data Quality Will be King in an AI World </description>
     </item>
     <item>
       <title>Getting Started with Cloud Based AI</title>
-      <link>http://localhost:1313/posts/cloud/gettingstartedincloudbasedai/</link>
+      <link>http://localhost:63665/posts/cloud/gettingstartedincloudbasedai/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/gettingstartedincloudbasedai/</guid>
+      <guid>http://localhost:63665/posts/cloud/gettingstartedincloudbasedai/</guid>
       <description>Getting Started with Cloud Based AI T</description>
     </item>
     <item>
       <title>How to use McKinsey SCR framework</title>
-      <link>http://localhost:1313/posts/howtousescrframework/</link>
+      <link>http://localhost:63665/posts/howtousescrframework/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/howtousescrframework/</guid>
+      <guid>http://localhost:63665/posts/howtousescrframework/</guid>
       <description>The Situation-Complication-Resolution (SCR) Framework provides a structure for clearly defining business challenges and outlining strategies and solutions.</description>
     </item>
     <item>
-      <title>My Worst Mistakes In The Cloud</title>
-      <link>http://localhost:1313/posts/cloud/myworstmistakesinthecloud/</link>
+      <title>Introduction to TOGAF 1</title>
+      <link>http://localhost:63665/posts/ea/togaf/togaf1/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/myworstmistakesinthecloud/</guid>
+      <guid>http://localhost:63665/posts/ea/togaf/togaf1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to TOGAF 1</title>
+      <link>http://localhost:63665/posts/ea/togaf/togaf4/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/ea/togaf/togaf4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction to TOGAF 2</title>
+      <link>http://localhost:63665/posts/ea/togaf/togaf2./</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/ea/togaf/togaf2./</guid>
+      <description>Signs you are Doing EA Wrong&#xA;EA is Siloed and Isolated </description>
+    </item>
+    <item>
+      <title>Introduction to TOGAF 3</title>
+      <link>http://localhost:63665/posts/ea/togaf/togaf3/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/ea/togaf/togaf3/</guid>
+      <description>How to Prioritize EA Work?&#xA;Identify areas with: The highest business impact and risk Most cooperative stakeholders Highest feasibility to Easiest to discover and explain Highest feasibility Highest potential for value increase Common EA Errors Lack of attention to mission, vision, goals and objectives Unrealistic Goals Description Benefits Costs and Risks Feasibility Alignment Higher Productivity Description Benefit Costs and Risks Costs and Risks Feasibility EA and Modelling Issues with EA Models All models involve tradeoffs between complexity, accuracy, and maintainability</description>
+    </item>
+    <item>
+      <title>My Worst Mistakes In The Cloud</title>
+      <link>http://localhost:63665/posts/cloud/myworstmistakesinthecloud/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/cloud/myworstmistakesinthecloud/</guid>
       <description>Cloud Mistakes Here they are:&#xA;Running systems doing nothing Lift and Shift Naive Use of Cloud Storage Poor Planning Weak Governance No Strategy Shiny Object Syndrome Lack of Automation Lack of Monitoring Lack of Testing Lack of Security Lack of Backups Lack of Disaster Recovery Lack of Change Management Lack of Incident Response Lack of Incident Reporting Lack of Incident Review Lack of Incident Lessons Learned Lack of Incident Closure Lack of Incident Root Cause Analysis Lack of Incident Post Mortem Lack of Incident Retrospective Lack of Incident Action Items Lack of Incident Escalation </description>
     </item>
     <item>
       <title>Presentation: Leveraging AWS Cloud Services for AI</title>
-      <link>http://localhost:1313/posts/presentations/aws-ai-services-presentation/</link>
+      <link>http://localhost:63665/posts/presentations/aws-ai-services-presentation/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/presentations/aws-ai-services-presentation/</guid>
+      <guid>http://localhost:63665/posts/presentations/aws-ai-services-presentation/</guid>
       <description>Situation You have an orderly and stable IT infrastructure Complication You want to use AI Setting up AI is hard and expensive Slides showing the high costs of AI models Slide showing skills shortages You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution You want some flexibility and choice in the tools and platforms you use You think that if you don&amp;rsquo;t get going now, you will never catch up Youi require use cases which are: Relatively cheap and easy Deliver real value Can be improved as tools and skills increase Resolution Leverage AWS Bedrock and AWS Sagemaker </description>
     </item>
     <item>
-      <title>RAG Chronicles</title>
-      <link>http://localhost:1313/posts/ai/rag1/</link>
+      <title>RAG Chronicles 1</title>
+      <link>http://localhost:63665/posts/ai/rag/rag1/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/rag1/</guid>
+      <guid>http://localhost:63665/posts/ai/rag/rag1/</guid>
       <description>RAG Chronicles 1 This is article 1 about building a RAG application.&#xA;Understand the Domain Understand the Customer Choose your tools and platforms Manage your data sources Manage your data pipleine Design your system Build, test and deploy User Experience Monitoring and Feedback Understand the Domain Every human domain has its own special language and terminology&#xA;Figure out how to handle content Understand the Customer Choose your tools and platforms There are already a number of tools out there.</description>
     </item>
     <item>
       <title>RAG Chronicles 2</title>
-      <link>http://localhost:1313/posts/ai/rag2/</link>
+      <link>http://localhost:63665/posts/ai/rag/rag2/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/ai/rag2/</guid>
+      <guid>http://localhost:63665/posts/ai/rag/rag2/</guid>
       <description>RAG Chronicles 2 This is article 2 about building a RAG application.&#xA;RAG Overview RAG logically can be divided into&#xA;Ingestion Service Inference Service Vector Database User or API server The RAG Pipeline Some RAG Concepts Small to Big Retrieval Small to Big Retrieval Description:&#xA;Chunk your documents into small chunks (ie &amp;lsquo;sentences.&amp;rsquo;) Small chunks lead to vectors with &amp;hellip; Find the closest vector to your query Retrieve the selected node and surrounding context When you look up the sentences See https://docs.</description>
     </item>
     <item>
-      <title>Ten Reasons To Regret Cloud Adoption</title>
-      <link>http://localhost:1313/posts/cloud/reasonstoavoidthecloud/</link>
+      <title>RAG: An Executive Overview</title>
+      <link>http://localhost:63665/posts/presentations/rag-executive-presentation/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/reasonstoavoidthecloud/</guid>
+      <guid>http://localhost:63665/posts/presentations/rag-executive-presentation/</guid>
+      <description>Agenda How can RAG be Effectively Used in the Enteprise?&#xA;Limits of LLMs LLMs are powerful but limited Limit 1 Limit 2 RAG solves many of the above problems RAG Aspects Data and documents are identified and catalogued Curators chooses documents and rules Some documents and content are filtered Embeddings and search indexes created require filtering RAG Defined Situation You have an orderly and stable IT infrastructure Complication You want to use AI Setting up AI is hard and expensive Slides showing the high costs of AI models Slide showing skills shortages You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution You want some flexibility and choice in the tools and platforms you use You think that if you don&amp;rsquo;t get going now, you will never catch up Youi require use cases which are: Relatively cheap and easy Deliver real value Can be improved as tools and skills increase Resolution Leverage AWS Bedrock and AWS Sagemaker </description>
+    </item>
+    <item>
+      <title>Ten Reasons To Regret Cloud Adoption</title>
+      <link>http://localhost:63665/posts/cloud/reasonstoavoidthecloud/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:63665/posts/cloud/reasonstoavoidthecloud/</guid>
       <description>Plan:&#xA;ten specific reasons people have regretted going to the cloud Causes of why this happened How to avoid this Ten Reasons People Have Regretted Going to the Cloud Total costs did not actually go down Minimal savings on existing on-premise data centers and workloads Existing staff did not actually increase capacity and workload No noticeable improvement in service levels (availability, latency, etc) No increase in speed to market or value No noticeable improvement in security Causes:</description>
     </item>
     <item>
       <title>Cloud Storage</title>
-      <link>http://localhost:1313/posts/cloud/cloudstorage/</link>
+      <link>http://localhost:63665/posts/cloud/cloudstorage/</link>
       <pubDate>Mon, 04 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/cloud/cloudstorage/</guid>
+      <guid>http://localhost:63665/posts/cloud/cloudstorage/</guid>
       <description>Cloud Storage When deciding if , when and how to store your data, it is important to understand the different cloud storage options available.</description>
     </item>
     <item>
       <title>Corporate IT is a Kitchen</title>
-      <link>http://localhost:1313/posts/itkitchen/</link>
+      <link>http://localhost:63665/posts/itkitchen/</link>
       <pubDate>Sun, 03 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:1313/posts/itkitchen/</guid>
+      <guid>http://localhost:63665/posts/itkitchen/</guid>
       <description>Corporate IT is Like a Home Kitchen Internal IT departments are like the home cook that prepares the meals for the family.&#xA;What you will find:&#xA;Everyone will complain about your cooking and the meals you make. A few thank yous is all you can expect Everyone will want their own special meals. One person will want vegetarian only, and another will demand more meat. Evertone will ask for more spicy or less spicy.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:63665/k8s-smaple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63665/k8s-smaple/</guid>
+      <description>graph LR&#xD;subgraph Authentication [&#xD;API_Gateway [API Gateway]&#xD;Keycloak [Keycloak]&#xD;]&#xD;subgraph Application_Tier [&#xD;Load_Balancer [Load Balancer]&#xD;Web_Server_1 [Web Server (3x)] --&amp;gt; Load_Balancer&#xD;API_Server_1 [API Server (2x)] --&amp;gt; Load_Balancer&#xD;]&#xD;subgraph Database [&#xD;Database [Database]&#xD;]&#xD;Authentication --&amp;gt; Application_Tier&#xD;Application_Tier --&amp;gt; Database </description>
     </item>
   </channel>
 </rss>

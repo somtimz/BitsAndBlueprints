@@ -1,0 +1,12 @@
++++
+title = 'Understanding AWS Containers'
+date = 2024-03-05T08:50:13-05:00
+draft = true
++++
+
+
+| Service                          | Description |
+| -------------------------------- | ------- |
+| Amazon Elastic Container Service (ECS)  | $250    |
+| Amazon Elastic Kubernetes Service (EKS) | $80     |
+| AWS Fargate   | $420    |

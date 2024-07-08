@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63665&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>GraphQL | An eclectic mix of technical content!</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.
+When to Use GraphQL
+When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL">
+    <meta name="generator" content="Hugo 0.123.7">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:63665/posts/softwareengineering/graphql/">
+    
+
+    <meta property="og:title" content="GraphQL" />
+<meta property="og:description" content="When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.
+When to Use GraphQL
+When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:63665/posts/softwareengineering/graphql/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-05T08:50:13-05:00" />
+<meta property="article:modified_time" content="2024-04-05T08:50:13-05:00" />
+
+<meta itemprop="name" content="GraphQL">
+<meta itemprop="description" content="When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.
+When to Use GraphQL
+When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL"><meta itemprop="datePublished" content="2024-04-05T08:50:13-05:00" />
+<meta itemprop="dateModified" content="2024-04-05T08:50:13-05:00" />
+<meta itemprop="wordCount" content="289">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="GraphQL"/>
+<meta name="twitter:description" content="When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.
+When to Use GraphQL
+When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        An eclectic mix of technical content!
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">GraphQL</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-04-05T08:50:13-05:00">April 5, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.</p>
+<p>When to Use GraphQL</p>
+<ul>
+<li>When the client must control the type and amount of data wanted from the server</li>
+<li>When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data</li>
+<li>It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it</li>
+<li>GraphQL is often useful for rapid prototyping</li>
+<li></li>
+</ul>
+<p>Some Facts about GraphqL</p>
+<ul>
+<li>Unlike REST, GraphQL uses a single endpoint for all operations</li>
+<li>For simple scenarios you can call GraphQL endpoint via REST, but in more complex cases, you will require a GraPhQL client. There are several clients to consider including:
+<ul>
+<li>Apollo clinet</li>
+<li>graphql-request</li>
+<li>urql</li>
+<li>Realy</li>
+<li>graphql-hooks</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<p>Advantages of GraphQL:</p>
+<p>Issues:</p>
+<ul>
+<li>Performance issues</li>
+<li>Adds complexity</li>
+<li>Error handling becomes harder</li>
+<li>Integration into monitoring tools is mroe difficult since all queries return 200 ok status</li>
+<li>Some missing capabilities such as file uploads</li>
+<li>GraphQL has only one end point, making it mroe difficult to cache queries</li>
+<li>Some security challenges asociated with GraphQL include:
+<ul>
+<li>Attackers can dynamically query the schema and receive detailed information, including its types and activities. Thsi can expose  private data related to the underlying data model.</li>
+<li>Rate limiting: When there is no efficient rate limitation, attackers can send numerous API requests to overwhelm the server and cause API spam and service depletion or unavailability.</li>
+<li>Very deep or nested queries can result in denial of service attacks</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<p>-</p>
+<p>Some Features to Look for:</p>
+<ul>
+<li>Typescript Support</li>
+<li>Authentication support</li>
+<li>Support for multiple libraries (rect, angular, Svelte, etc)</li>
+<li>Support for multiple platforms</li>
+<li>Caching</li>
+<li>Query batching</li>
+<li>Query dedplication</li>
+<li>Pagination</li>
+<li>Local state management (ie redux)</li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:63665/" >
+    &copy;  An eclectic mix of technical content! 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

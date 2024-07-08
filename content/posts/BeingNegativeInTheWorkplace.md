@@ -6,7 +6,7 @@ draft = true
 
 ## Being Negative In the Workplace
 
-Oh boy, its really hard to be negative in the workplace, especailly when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.
+Oh boy, its really hard to be negative in the workplace, especially when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.
 
 What should yyou do if you find yourself in that situation.
 
