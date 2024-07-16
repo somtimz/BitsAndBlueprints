@@ -14,7 +14,7 @@ An organization needs 5 things in order to execute change successfully
 4. Resources
 5. Action plan
 
-If any of these items are missing, the consequnces are:
+If any of these items are missing, the consequences are:
 - Lack of vision: If you don’t have a vision — that guiding force behind what you’re trying to do — you will not end up with change. *You will end up with confusion* because you won’t have that guiding force to refer back to during the process.
 - Lack of skills: If you lack the skills necessary (i.e. communication, public speaking, political or advocacy) to effect the change you seek, you will be left with anxiety among your coalition members. If you have people who are unprepared to do the work, it doesn’t matter if they have a great vision.
 - Lack of Incentives: If you klack incentives (rewards, recognition, celebrations) that keep key community stakeholders involved — you may have change, but it may take years to accomplish what you could have done in a shorter period of time.
