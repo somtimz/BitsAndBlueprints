@@ -12,7 +12,7 @@ Task Management: Salesforce allows you to create tasks and assign them to users.
 Create Tasks: You can create tasks manually or automate task creation through workflow rules or process builder.
 By leveraging these tools, you can streamline your business processes, reduce manual work, and ensure consistency in how tasks and approvals are handled within your organization.
 
-2. Workflow Rules: These are automated processes that trigger actions based on specific criteria. You can use workflow rules to automate standard internal procedures and processes to save time across your organization. The 
+2. Workflow Rules: These are automated processes that trigger actions based on specific criteria. You can use workflow rules to automate standard internal procedures and processes to save time across your organization. The
    - Allows you to define and manage rules
    - Create a Workflow Rule: Go to Setup, enter "Workflow Rules" in the Quick Find box, and select Workflow Rules. Click "New Rule" and choose the object you want the rule to apply to. Define the criteria that will trigger the rule and specify the actions (e.g., email alerts, field updates, tasks).
    - Salesforce will no longer be supporting Workflow Rules and Process Builder on December 31, 2025

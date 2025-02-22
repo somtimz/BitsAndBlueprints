@@ -10,19 +10,17 @@ If I was to build a course
 
 - Very simple getting started
 
-
 Purpose of this post:
 
--   To document the process of building a RAG based chatbot
--   Define the issues
--   
+- To document the process of building a RAG based chatbot
+- Define the issues
 
-# Minimum Reqs
+## Minimum Reqs
 
 - ask a question, get an answer from LLM
 - ask a question, get an answer from LLM + RAG
-- 
-# More Reqs
+
+## More Reqs
 
 - User login
 - Personalized

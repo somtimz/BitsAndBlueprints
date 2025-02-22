@@ -14,13 +14,10 @@ The models need to be tested for performance, but also for a lack of bias agains
 
 ![Testing Pyramid for ML Artifacts](TestingPyramid.png)
 
-
 ![alt Versioning of ML Artifacts](VersioningML.png)
-
 
 ## References
 
 [From MLOps to ML Systems with Feature/Training/Inference Pipelines](https://www.hopsworks.ai/post/mlops-to-ml-systems-with-fti-pipelines)
 
 [Serverless Machine Learning](https://www.serverless-ml.org/sml-course)
-
