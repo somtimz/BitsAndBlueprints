@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63665&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us"ZgotmplZ>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Iterative Refinement in LLMs | An eclectic mix of technical content!</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
-Gemini A: Yes, this is a fascinating idea!">
-    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="description" content="Q to Gemini:
+Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
+Gemini A:
+Yes, this is a fascinating idea! While it&rsquo;s not a common mainstream method in LLMs, there&rsquo;s definitely merit and ongoing research exploring similar approaches. Here&rsquo;s a breakdown:">
+    <meta name="generator" content="Hugo 0.157.0">
     
     
     
     
       <meta name="robots" content="noindex, nofollow">
+    
     
 
     
@@ -31,25 +34,30 @@ Gemini A: Yes, this is a fascinating idea!">
     
 
     
-      <link rel="canonical" href="http://localhost:63665/posts/ai/iterativerefinementmodels/">
+      <link rel="canonical" href="http://localhost:1313/posts/ai/iterativerefinementmodels/">
     
 
-    <meta property="og:title" content="Iterative Refinement in LLMs" />
-<meta property="og:description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
-Gemini A: Yes, this is a fascinating idea!" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:63665/posts/ai/iterativerefinementmodels/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-07T08:50:13-05:00" />
-<meta property="article:modified_time" content="2024-03-07T08:50:13-05:00" />
+    <meta property="og:url" content="http://localhost:1313/posts/ai/iterativerefinementmodels/">
+  <meta property="og:site_name" content="An eclectic mix of technical content!">
+  <meta property="og:title" content="Iterative Refinement in LLMs">
+  <meta property="og:description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
+Gemini A: Yes, this is a fascinating idea! While it’s not a common mainstream method in LLMs, there’s definitely merit and ongoing research exploring similar approaches. Here’s a breakdown:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-03-07T08:50:13-05:00">
+    <meta property="article:modified_time" content="2024-03-07T08:50:13-05:00">
 
-<meta itemprop="name" content="Iterative Refinement in LLMs">
-<meta itemprop="description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
-Gemini A: Yes, this is a fascinating idea!"><meta itemprop="datePublished" content="2024-03-07T08:50:13-05:00" />
-<meta itemprop="dateModified" content="2024-03-07T08:50:13-05:00" />
-<meta itemprop="wordCount" content="718">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Iterative Refinement in LLMs"/>
-<meta name="twitter:description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
-Gemini A: Yes, this is a fascinating idea!"/>
+  <meta itemprop="name" content="Iterative Refinement in LLMs">
+  <meta itemprop="description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
+Gemini A: Yes, this is a fascinating idea! While it’s not a common mainstream method in LLMs, there’s definitely merit and ongoing research exploring similar approaches. Here’s a breakdown:">
+  <meta itemprop="datePublished" content="2024-03-07T08:50:13-05:00">
+  <meta itemprop="dateModified" content="2024-03-07T08:50:13-05:00">
+  <meta itemprop="wordCount" content="718">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Iterative Refinement in LLMs">
+  <meta name="twitter:description" content="Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this
+Gemini A: Yes, this is a fascinating idea! While it’s not a common mainstream method in LLMs, there’s definitely merit and ongoing research exploring similar approaches. Here’s a breakdown:">
 
 	
   </head>
@@ -192,8 +200,8 @@ Absolutely! Here&rsquo;s a look at some relevant research directions on revising
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:63665/" >
-    &copy;  An eclectic mix of technical content! 2024 
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  An eclectic mix of technical content! 2026 
   </a>
     <div>
 <div class="ananke-socials">

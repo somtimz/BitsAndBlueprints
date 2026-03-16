@@ -2,263 +2,375 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>An eclectic mix of technical content!</title>
-    <link>http://localhost:63665/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on An eclectic mix of technical content!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2024 08:50:13 -0500</lastBuildDate>
-    <atom:link href="http://localhost:63665/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 17:25:41 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foo</title>
+      <link>http://localhost:1313/posts/ai/foo/</link>
+      <pubDate>Sun, 08 Mar 2026 17:25:41 -0400</pubDate>
+      <guid>http://localhost:1313/posts/ai/foo/</guid>
+      <description>&lt;p&gt;Stuff Goes Here&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Context Engineering</title>
+      <link>http://localhost:1313/posts/ai/context-engineering/</link>
+      <pubDate>Fri, 26 Dec 2025 11:01:53 -0500</pubDate>
+      <guid>http://localhost:1313/posts/ai/context-engineering/</guid>
+      <description>&lt;p&gt;Context Engineering is the discipline of designing the architecture that feeds an LLM the right information at the right time. It is not about changing the model itself, but about building the bridges that connect it to the outside world, retrieving external data, connecting it to live tools, and giving it a memory to ground its responses in facts, not just its training data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ContextEngineeringD1.png&#34; alt=&#34;Six key components of Context Engineering displayed as stacked cards with icons: Agents - the decision-making brain that orchestrates how and when to use information; Query Augmentation - the art of translating messy, ambiguous user requests into precise, machine-readable intent; Retrieval - the bridge connecting the LLM to your specific documents and knowledge bases; Prompting Techniques - the skill of giving clear, effective instructions to guide the model&amp;rsquo;s reasoning; Memory - the system that gives your application a sense of history and the ability to learn from interactions; Tools - the hands that allow your application to take direct action and interact with live data sources. The presentation is clean and organized, using color-coded icons to distinguish each component.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/posts/ai/generativeui/</link>
+      <pubDate>Sat, 21 Jun 2025 11:01:53 -0500</pubDate>
+      <guid>http://localhost:1313/posts/ai/generativeui/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;A generative UI (genUI) is a user interface that is dynamically generated in real time by artificial intelligence to provide an experience customized to fit the user’s needs and context.&lt;/li&gt;&#xA;&lt;li&gt;AI is introducing the third user-interface paradigm in computing history, shifting to a new interaction mechanism where users tell the computer what they want, not how to do it — thus reversing the locus of control.&lt;/li&gt;&#xA;&lt;li&gt;Personalized Interfaces&lt;/li&gt;&#xA;&lt;li&gt;Instead of one UI, there will be a Ui designed for each person&lt;/li&gt;&#xA;&lt;li&gt;UI will be created in real time&lt;/li&gt;&#xA;&lt;li&gt;Instead of designing components and buttons, UI design will focus on user goals and obey constraints&#xA;&lt;img src=&#34;FutureWithGenUI.png&#34; alt=&#34;alt text&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;Generative UI&lt;/th&gt;&#xA;          &lt;th&gt;AI-Assisted Design&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Who benefits?&lt;/td&gt;&#xA;          &lt;td&gt;End users&lt;/td&gt;&#xA;          &lt;td&gt;Designers and Product Teams&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;What is the output?&lt;/td&gt;&#xA;          &lt;td&gt;A dynamic, custom interface generated in real time for a specific end user&lt;/td&gt;&#xA;          &lt;td&gt;AI-generated UI designs and code&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;What is the impact?&lt;/td&gt;&#xA;          &lt;td&gt;Every end user interacts with an interface built just for them and their needs in that moment.&lt;/td&gt;&#xA;          &lt;td&gt;Product teams can significantly accelerate the ideation, design, and implementation of interfaces&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Some Early Tools&#xA;&lt;ul&gt;&#xA;&lt;li&gt;UIzard&lt;/li&gt;&#xA;&lt;li&gt;Canonic&lt;/li&gt;&#xA;&lt;li&gt;v0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Generative AI tools (like ChatGPT, Claude, etc.) have deep-rooted usability problems. Their problems led to the development of a new role — the “prompt engineer.”, who do nothing but talk nicely to the LLM in order to the right results.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/posts/ai/agents/</link>
+      <pubDate>Sat, 18 Jan 2025 11:01:53 -0500</pubDate>
+      <guid>http://localhost:1313/posts/ai/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibe Coding</title>
+      <link>http://localhost:1313/posts/ai/vibecoding/</link>
+      <pubDate>Sat, 18 Jan 2025 11:01:53 -0500</pubDate>
+      <guid>http://localhost:1313/posts/ai/vibecoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overview of Salesforce</title>
+      <link>http://localhost:1313/posts/salesforce/sfoverview/</link>
+      <pubDate>Sun, 06 Oct 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/salesforce/sfoverview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salesforce Processes and Workflows</title>
+      <link>http://localhost:1313/posts/salesforce/sfprocesses/</link>
+      <pubDate>Sun, 06 Oct 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/salesforce/sfprocesses/</guid>
+      <description>&lt;p&gt;Salesforce provides a robust set of tools to manage workflows effectively. Here are some key features and steps to use Salesforce for workflow management:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Flow: Salesforce Flow is a powerful tool that allows you to automate complex business processes by creating applications that guide users through screens to collect and update data.&#xA;Create a Flow: Go to Setup, enter &amp;ldquo;Flows&amp;rdquo; in the Quick Find box, and select Flows. Click &amp;ldquo;New Flow&amp;rdquo; and choose the type of flow you want to create. Use the Flow Builder to add elements that perform actions, such as creating records, sending emails, or displaying information to users.&#xA;Task Management: Salesforce allows you to create tasks and assign them to users. This can be part of a workflow to ensure that follow-up actions are taken.&#xA;Create Tasks: You can create tasks manually or automate task creation through workflow rules or process builder.&#xA;By leveraging these tools, you can streamline your business processes, reduce manual work, and ensure consistency in how tasks and approvals are handled within your organization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ML Pipelines</title>
+      <link>http://localhost:1313/posts/ai/mlops/fti-pipelines/</link>
+      <pubDate>Fri, 19 Jul 2024 08:58:05 -0500</pubDate>
+      <guid>http://localhost:1313/posts/ai/mlops/fti-pipelines/</guid>
+      <description>&lt;p&gt;MLOps is about automated testing, versioning, and monitoring of ML artifacts.&lt;/p&gt;&#xA;&lt;p&gt;(&lt;img src=&#34;FTI%20Pipeline.png&#34; alt=&#34;alt FTI Pipeline&#34;&gt;)&lt;/p&gt;&#xA;&lt;p&gt;It takes significant engineering effort to test and validate ML Systems  to make them safe!&lt;/p&gt;&#xA;&lt;p&gt;The models need to be tested for performance, but also for a lack of bias against known groups of vulnerable users. Finally, at the top of the pyramid, ML-Systems need to test their performance with A/B tests before they can switch to use a new model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blocking Change</title>
+      <link>http://localhost:1313/posts/organizations/blocking-change/</link>
+      <pubDate>Sat, 06 Jul 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/organizations/blocking-change/</guid>
+      <description>&lt;p&gt;The things that block change:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Vision is undefined and unclear&lt;/li&gt;&#xA;&lt;li&gt;Lack of concensus&lt;/li&gt;&#xA;&lt;li&gt;No urgency and commitment&lt;/li&gt;&#xA;&lt;li&gt;Lack of communication&lt;/li&gt;&#xA;&lt;li&gt;Disempowered employees&lt;/li&gt;&#xA;&lt;li&gt;Lack of demonstrated progess&lt;/li&gt;&#xA;&lt;li&gt;PR - Fake progress&lt;/li&gt;&#xA;&lt;li&gt;Change is not compounded and leveraged&lt;/li&gt;&#xA;&lt;li&gt;Old habits come back&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Managing Complex Change</title>
+      <link>http://localhost:1313/posts/organizations/managing-complex-change/</link>
+      <pubDate>Sat, 06 Jul 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/organizations/managing-complex-change/</guid>
+      <description>&lt;h1 id=&#34;lippitt-knoster-model-of-change-management&#34;&gt;Lippitt-Knoster Model of Change Management&lt;/h1&gt;&#xA;&lt;p&gt;An organization needs 5 things in order to execute change successfully&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Vision&lt;/li&gt;&#xA;&lt;li&gt;Skills&lt;/li&gt;&#xA;&lt;li&gt;Incentives&lt;/li&gt;&#xA;&lt;li&gt;Resources&lt;/li&gt;&#xA;&lt;li&gt;Action plan&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;If any of these items are missing, the consequences are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lack of vision: If you don’t have a vision — that guiding force behind what you’re trying to do — you will not end up with change. &lt;em&gt;You will end up with confusion&lt;/em&gt; because you won’t have that guiding force to refer back to during the process.&lt;/li&gt;&#xA;&lt;li&gt;Lack of skills: If you lack the skills necessary (i.e. communication, public speaking, political or advocacy) to effect the change you seek, you will be left with anxiety among your coalition members. If you have people who are unprepared to do the work, it doesn’t matter if they have a great vision.&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incentives: If you klack incentives (rewards, recognition, celebrations) that keep key community stakeholders involved — you may have change, but it may take years to accomplish what you could have done in a shorter period of time.&lt;/li&gt;&#xA;&lt;li&gt;Lack of Resources: If you the resources (money, time, equipment), you will end up with a lot of frustration because you don’t have the resources to get the job done.&lt;/li&gt;&#xA;&lt;li&gt;No Action Plan: If you don&amp;rsquo;t have an action plan — a plan broken down into steps that people can take and accomplish in small bits — you will end up with a lot of false starts. A lot of time will be wasted to go back and take care of necessary steps.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ManageComplexChange.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trustworthy AI</title>
+      <link>http://localhost:1313/posts/trustworthyai/twai/</link>
+      <pubDate>Sat, 06 Jul 2024 06:20:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/trustworthyai/twai/</guid>
+      <description>&lt;h2 id=&#34;trustworthy-ai&#34;&gt;Trustworthy AI&lt;/h2&gt;&#xA;&lt;p&gt;Characteristics of Trustworthy AI include&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cross Pollination</title>
-      <link>http://localhost:63665/posts/crosspollination/cp-overview/</link>
+      <link>http://localhost:1313/posts/crosspollination/cp-overview/</link>
       <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/crosspollination/cp-overview/</guid>
-      <description>Its very useful to borrow concepts from one field and apply it to other fields. Here is some terminonology that can help illustrate:&#xA;Cross-pollination: The transfer of ideas between different fields to produce new insights and solutions. It emphasizes the fruitful exchange that can occur across disciplines.&#xA;Knowledge Transfer: Knowledge transfer focuses on the deliberate application of knowledge or practices from one domain to another to solve a problem or create something new.</description>
+      <guid>http://localhost:1313/posts/crosspollination/cp-overview/</guid>
+      <description>&lt;p&gt;Its very useful to borrow concepts from one field and apply it to other fields. Here is some terminonology that can help illustrate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cross-pollination:&lt;/strong&gt; The transfer of ideas between different fields to produce new insights and solutions. It emphasizes the fruitful exchange that can occur across disciplines.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Knowledge Transfer:&lt;/strong&gt; Knowledge transfer focuses on the deliberate application of knowledge or practices from one domain to another to solve a problem or create something new.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Inspired by GitOps</title>
-      <link>http://localhost:63665/posts/crosspollination/inspriedbygitops/</link>
+      <link>http://localhost:1313/posts/crosspollination/inspriedbygitops/</link>
       <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/crosspollination/inspriedbygitops/</guid>
-      <description>Part X of my Exploration of Lateral Thinking and CrossPollination&#xA;Any concepts that help automate, standardize, and streamline any business or other operations are worth exploring.&#xA;GitOps is a framework for optimizing continuous delivery and continuous deployment. GitOps takes the core principles of Git - version control, pull requests, and declarative configuration - and applies them to infrastructure and application deployment.&#xA;The principles of GitOps can be applied to a business function or operations, such as issuing loans, processing claims, delivering health care saervices and so on.</description>
+      <guid>http://localhost:1313/posts/crosspollination/inspriedbygitops/</guid>
+      <description>&lt;p&gt;Part X of my Exploration of Lateral Thinking and CrossPollination&lt;/p&gt;&#xA;&lt;p&gt;Any concepts that help automate, standardize, and streamline any business or other operations are worth exploring.&lt;/p&gt;&#xA;&lt;p&gt;GitOps is a framework for optimizing continuous delivery and continuous deployment. GitOps takes the core principles of Git - version control, pull requests, and declarative configuration - and applies them to infrastructure and application deployment.&lt;/p&gt;&#xA;&lt;p&gt;The principles of GitOps can be applied to a business function or operations, such as issuing loans, processing claims, delivering health care saervices and so on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Inspired by GitOps</title>
-      <link>http://localhost:63665/posts/it-strategy/inspiredbygitops/</link>
+      <link>http://localhost:1313/posts/it-strategy/inspiredbygitops/</link>
       <pubDate>Fri, 12 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/it-strategy/inspiredbygitops/</guid>
-      <description>Its often useful to borrow concepts from one area and apply it to another.&#xA;Today lets looks</description>
+      <guid>http://localhost:1313/posts/it-strategy/inspiredbygitops/</guid>
+      <description>&lt;p&gt;Its often useful to borrow concepts from one area and apply it to another.&lt;/p&gt;&#xA;&lt;p&gt;Today lets looks&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>API Design</title>
+      <link>http://localhost:1313/posts/softwareengineering/apidesign/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/softwareengineering/apidesign/</guid>
+      <description>&lt;h2 id=&#34;purpose-of-apis&#34;&gt;Purpose of APIs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deliver integration between systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;principles-of-api-design&#34;&gt;Principles of API Design&lt;/h2&gt;&#xA;&lt;p&gt;Effective Web API design requires understanding and applying three important elements:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Business capabilities: The underlying business capabilities should reflected in the API design.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Why: Will deliver the services clients want and need&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Product thinking: The focus of an API product is&#xA;on meeting market needs in a scalable and cost-effective way.&#xA;Why: Increases reuse and flexibility&lt;/li&gt;&#xA;&lt;li&gt;Developer experience: The developer must find the API easy to use and meet their needs&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Why: A great DX is essential to the success of an API and will help develop business value faster&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;another-view-of-principles&#34;&gt;Another View of Principles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Principle 1: Collaborative API design&#xA;is essential for a good API.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone&lt;/li&gt;&#xA;&lt;li&gt;Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC&lt;/li&gt;&#xA;&lt;li&gt;Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;goals-of-api-design&#34;&gt;Goals of API Design&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deliver outcomes and experiences&lt;/li&gt;&#xA;&lt;li&gt;Optimized network access&lt;/li&gt;&#xA;&lt;li&gt;Programming language independence.&lt;/li&gt;&#xA;&lt;li&gt;Stable over time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-api-design-about&#34;&gt;What is API Design About?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Communicaiton across network boundaries&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Communication with developers&lt;/li&gt;&#xA;&lt;li&gt;Communication with the marketplace&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;applicable-principles-of-api-design&#34;&gt;Applicable Principles of API Design&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modularization&lt;/li&gt;&#xA;&lt;li&gt;Encapsulation&lt;/li&gt;&#xA;&lt;li&gt;Loose coupling&lt;/li&gt;&#xA;&lt;li&gt;High cohesion&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other best practices:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bad Governance Models</title>
-      <link>http://localhost:63665/posts/it-strategy/goodbadgovernance/</link>
+      <link>http://localhost:1313/posts/it-strategy/goodbadgovernance/</link>
       <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/it-strategy/goodbadgovernance/</guid>
-      <description>Publish BEFORE April 9&#xA;ID: Good governance message is widely &amp;hellip;. The message that is heard constantly in corporate IT is the importance of good governance.&#xA;ID: Good governance is uncommon&amp;hellip; However, more often than not, the governance, I see in place is anything but good. Good governance is widely misunderstood and often implemented poorly as a result.&#xA;Bad governance is unfortunately a giant reason why so much investment in technology is wasted and one reason that corporate IT is often not a signifcant player when corporate strategy is being defined and formulated.</description>
+      <guid>http://localhost:1313/posts/it-strategy/goodbadgovernance/</guid>
+      <description>&lt;p&gt;Publish BEFORE April 9&lt;/p&gt;&#xA;&lt;p&gt;ID: Good governance message is widely &amp;hellip;.&#xA;The message that is heard constantly in corporate IT is the importance of good governance.&lt;/p&gt;&#xA;&lt;p&gt;ID: Good governance is uncommon&amp;hellip;&#xA;However, more often than not, the governance, I see in place is anything but good. Good governance is widely misunderstood and often implemented poorly as a result.&lt;/p&gt;&#xA;&lt;p&gt;Bad governance is unfortunately a giant reason why so much investment in technology is wasted and one reason that corporate IT is often not a signifcant player when corporate strategy is being defined and formulated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GraphQL</title>
-      <link>http://localhost:63665/posts/softwareengineering/graphql/</link>
+      <link>http://localhost:1313/posts/softwareengineering/graphql/</link>
       <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/softwareengineering/graphql/</guid>
-      <description>When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.&#xA;When to Use GraphQL&#xA;When the client must control the type and amount of data wanted from the server When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it GraphQL is often useful for rapid prototyping Some Facts about GraphqL</description>
+      <guid>http://localhost:1313/posts/softwareengineering/graphql/</guid>
+      <description>&lt;p&gt;When choosing Between REST and GraphQL it is importnt to conisder what problems have to be resolved in production settings.&lt;/p&gt;&#xA;&lt;p&gt;When to Use GraphQL&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;When the client must control the type and amount of data wanted from the server&lt;/li&gt;&#xA;&lt;li&gt;When data is collected and aggregated from multiple sources, a single client API call is required to fetch all the necessary data&lt;/li&gt;&#xA;&lt;li&gt;It helps in situations where badwidth is a concern. a GraphQL client can limit how much data is returned to it&lt;/li&gt;&#xA;&lt;li&gt;GraphQL is often useful for rapid prototyping&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Some Facts about GraphqL&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integration</title>
+      <link>http://localhost:1313/posts/softwareengineering/integration/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/softwareengineering/integration/</guid>
+      <description>&lt;p&gt;Why is Systems and Data integration useful?&lt;/p&gt;&#xA;&lt;p&gt;Benefit:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It promotes the practice of collecting, validating, and processing data in one way consistent way across all collection and processing points thereby reducing time, effort and errors encountered&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Costs:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Arriving at a common concensus and understanding as well as effective processes for What are the costs of integrations?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;B: Establishes traceability and lineage to enable where and how data errors have occurred, thereby enabling rapid repair and mitigaiton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trustworthy AI Resources</title>
+      <link>http://localhost:1313/posts/trustworthyai/twairesources/</link>
+      <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/trustworthyai/twairesources/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;US AI Executive Order&#xA;EU AI Act&#xA;OECD AI Principles&#xA;NIST Framework&#xA;UK AI Safety Institute&#xA;AI Bill of Rights&lt;/p&gt;</description>
     </item>
     <item>
       <title>What are Vector Databases Good For?</title>
-      <link>http://localhost:63665/vectordbusecases/</link>
+      <link>http://localhost:1313/vectordbusecases/</link>
       <pubDate>Fri, 05 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/vectordbusecases/</guid>
-      <description> RAG Dense Search RAG Hybrid RAG Recommendations Search Similarity Search Facial Other Anomaly Detection RAG </description>
+      <guid>http://localhost:1313/vectordbusecases/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;RAG&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dense Search RAG&lt;/li&gt;&#xA;&lt;li&gt;Hybrid RAG&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Recommendations&lt;/li&gt;&#xA;&lt;li&gt;Search&lt;/li&gt;&#xA;&lt;li&gt;Similarity Search&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Facial&lt;/li&gt;&#xA;&lt;li&gt;Other&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Anomaly Detection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rag&#34;&gt;RAG&lt;/h2&gt;</description>
     </item>
     <item>
       <title>RAG Notes</title>
-      <link>http://localhost:63665/posts/ai/rag/rag-notes/</link>
+      <link>http://localhost:1313/posts/ai/rag/rag-notes/</link>
       <pubDate>Wed, 03 Apr 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/rag/rag-notes/</guid>
-      <description>What Problems Does LlamaIndex Solve? A way to ingest data into a vector store A way to create queries Notes about LlamaIndex Note that Behind the Scenes:&#xA;the input documents are loaded&#xA;the input documents are chunked, embeddings created and stored in a vector db&#xA;The vector db is created a query engine combines:&#xA;Retriever turns the question into an embedding that can be sued to call the vector db Calls the vector db to get the best matches Performs postprocessing ion retreived nodes Synthesizes the query to a LLM</description>
+      <guid>http://localhost:1313/posts/ai/rag/rag-notes/</guid>
+      <description>&lt;h2 id=&#34;what-problems-does-llamaindex-solve&#34;&gt;What Problems Does LlamaIndex Solve?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A way to ingest data into a vector store&lt;/li&gt;&#xA;&lt;li&gt;A way to create queries&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;notes-about-llamaindex&#34;&gt;Notes about LlamaIndex&lt;/h2&gt;&#xA;&lt;p&gt;Note that Behind the Scenes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the input documents are loaded&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the input documents are chunked, embeddings created and stored in a vector db&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The vector db is created&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;a query engine combines:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Retriever&#xA;&lt;ul&gt;&#xA;&lt;li&gt;turns the question into an embedding that can be sued to call the vector db&lt;/li&gt;&#xA;&lt;li&gt;Calls the vector db to get the best matches&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Performs postprocessing ion retreived nodes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Synthesizes the query to a LLM&lt;/p&gt;</description>
     </item>
     <item>
       <title>RunningNotes</title>
-      <link>http://localhost:63665/posts/runningnotes/</link>
+      <link>http://localhost:1313/posts/runningnotes/</link>
       <pubDate>Wed, 13 Mar 2024 06:39:38 -0400</pubDate>
-      <guid>http://localhost:63665/posts/runningnotes/</guid>
-      <description>My technical diary on what I&amp;rsquo;m learning about AI, the Cloud, System design, Programming(Python, React, Node, Spring), and strategy.&#xA;RAG - Multimodal and More RAG Foundations RAg Enhancements RAG and LLM Integrations RAG Retrieval Two types of retrieval&#xA;Sparse retrieval (ie BM25) Dense retrival (ie Vector embedding) Diffusion Models Diffusion models are a family of deep generative models that can create realistic and diverse samples of data, such as images, texts and videos.</description>
+      <guid>http://localhost:1313/posts/runningnotes/</guid>
+      <description>&lt;p&gt;My technical diary on what I&amp;rsquo;m learning about AI, the Cloud, System design, Programming(Python, React, Node, Spring), and strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;rag---multimodal-and-more&#34;&gt;RAG - Multimodal and More&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RAG Foundations&lt;/li&gt;&#xA;&lt;li&gt;RAg Enhancements&lt;/li&gt;&#xA;&lt;li&gt;RAG and LLM Integrations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;rag-retrieval&#34;&gt;RAG Retrieval&lt;/h3&gt;&#xA;&lt;p&gt;Two types of retrieval&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Sparse retrieval (ie BM25)&lt;/li&gt;&#xA;&lt;li&gt;Dense retrival (ie Vector embedding)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;diffusion-models&#34;&gt;Diffusion Models&lt;/h2&gt;&#xA;&lt;p&gt;Diffusion models are a family of deep generative models that can create realistic and diverse samples of data, such as images, texts and videos.&#xA;Diffusion models work by gradually adding noise to data until it becomes random, then reversing&#xA;the process to generate new data from noise. This process is based on probabilistic modeling and neural networks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LangChain A multi-factor review of the AI Library</title>
-      <link>http://localhost:63665/posts/ai/ailibraries/langchain/</link>
+      <link>http://localhost:1313/posts/ai/ailibraries/langchain/</link>
       <pubDate>Sat, 09 Mar 2024 09:27:45 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/ailibraries/langchain/</guid>
-      <description>Inspecting LangChain from the follwoign perspectives&#xA;Use Cases Supported Capabilities Feature Set Technologies Used Architecture Security Design Scalability Issues Future Work/Roadmap Successes </description>
+      <guid>http://localhost:1313/posts/ai/ailibraries/langchain/</guid>
+      <description>&lt;p&gt;Inspecting LangChain from the follwoign perspectives&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Cases Supported&lt;/li&gt;&#xA;&lt;li&gt;Capabilities&lt;/li&gt;&#xA;&lt;li&gt;Feature Set&lt;/li&gt;&#xA;&lt;li&gt;Technologies Used&lt;/li&gt;&#xA;&lt;li&gt;Architecture&lt;/li&gt;&#xA;&lt;li&gt;Security&lt;/li&gt;&#xA;&lt;li&gt;Design&lt;/li&gt;&#xA;&lt;li&gt;Scalability&lt;/li&gt;&#xA;&lt;li&gt;Issues&lt;/li&gt;&#xA;&lt;li&gt;Future Work/Roadmap&lt;/li&gt;&#xA;&lt;li&gt;Successes&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>RAG Based ChatBots</title>
-      <link>http://localhost:63665/posts/ai/rag/ragchatbots/</link>
+      <link>http://localhost:1313/posts/ai/rag/ragchatbots/</link>
       <pubDate>Sat, 09 Mar 2024 09:21:20 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/rag/ragchatbots/</guid>
-      <description>TODO: Organize into a series of RAG based&#xA;If I was to build a course&#xA;Very simple getting started Purpose of this post:&#xA;To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM + RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions </description>
+      <guid>http://localhost:1313/posts/ai/rag/ragchatbots/</guid>
+      <description>&lt;p&gt;TODO: Organize into a series of RAG based&lt;/p&gt;&#xA;&lt;p&gt;If I was to build a course&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Very simple getting started&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Purpose of this post:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To document the process of building a RAG based chatbot&lt;/li&gt;&#xA;&lt;li&gt;Define the issues&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;minimum-reqs&#34;&gt;Minimum Reqs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ask a question, get an answer from LLM&lt;/li&gt;&#xA;&lt;li&gt;ask a question, get an answer from LLM + RAG&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;more-reqs&#34;&gt;More Reqs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User login&lt;/li&gt;&#xA;&lt;li&gt;Personalized&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Profile&lt;/li&gt;&#xA;&lt;li&gt;Preferences&lt;/li&gt;&#xA;&lt;li&gt;Prompt library&lt;/li&gt;&#xA;&lt;li&gt;Chat history&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Multichannel&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support email in/out&lt;/li&gt;&#xA;&lt;li&gt;Support a batch of questions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>MLOps - Skills Required</title>
-      <link>http://localhost:63665/posts/ai/mlops/mlops/</link>
+      <link>http://localhost:1313/posts/ai/mlops/mlops/</link>
       <pubDate>Sat, 09 Mar 2024 08:58:05 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/mlops/mlops/</guid>
-      <description>Here are a list of skillsrequired for a career in MLOPs?&#xA;Programming: Python Tools (IDEs, testing, build tools, CI/CD) Libraries (Langchain, Llamaindex) ML Chatbots Data Engineering (pandas) Containers and Kubernetes ML Fundamentals Deep Learning Foundation Model - Architectures LLM Vision models MMLU Prompt Engineering Embedding, Vector Stores RAG MLOps MLOps Principles MLOps Components Version Control &amp;amp; CI/CD Orchestration Experminet tracking (MLflow) Data lineage Model training &amp;amp; serving Monitoring and Observability Infrasrucutre as Code Terraform BLIP CloudFormation References https://medium.</description>
+      <guid>http://localhost:1313/posts/ai/mlops/mlops/</guid>
+      <description>&lt;p&gt;Here are a list of skillsrequired for a career in MLOPs?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Programming:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Tools (IDEs, testing, build tools, CI/CD)&lt;/li&gt;&#xA;&lt;li&gt;Libraries (Langchain, Llamaindex)&lt;/li&gt;&#xA;&lt;li&gt;ML Chatbots&lt;/li&gt;&#xA;&lt;li&gt;Data Engineering (pandas)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Containers and Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;ML Fundamentals&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Deep Learning&lt;/li&gt;&#xA;&lt;li&gt;Foundation Model - Architectures&#xA;&lt;ol&gt;&#xA;&lt;li&gt;LLM&lt;/li&gt;&#xA;&lt;li&gt;Vision models&lt;/li&gt;&#xA;&lt;li&gt;MMLU&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Prompt Engineering&lt;/li&gt;&#xA;&lt;li&gt;Embedding, Vector Stores&lt;/li&gt;&#xA;&lt;li&gt;RAG&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;MLOps&#xA;&lt;ol&gt;&#xA;&lt;li&gt;MLOps Principles&lt;/li&gt;&#xA;&lt;li&gt;MLOps Components&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Version Control &amp;amp; CI/CD&lt;/li&gt;&#xA;&lt;li&gt;Orchestration&lt;/li&gt;&#xA;&lt;li&gt;Experminet tracking (MLflow)&lt;/li&gt;&#xA;&lt;li&gt;Data lineage&lt;/li&gt;&#xA;&lt;li&gt;Model training &amp;amp; serving&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and Observability&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Infrasrucutre as Code&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Terraform&lt;/li&gt;&#xA;&lt;li&gt;BLIP&lt;/li&gt;&#xA;&lt;li&gt;CloudFormation&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/marvelous-mlops/mlops-roadmap-2024-ff4216b8bc62&#34;&gt;https://medium.com/marvelous-mlops/mlops-roadmap-2024-ff4216b8bc62&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Iterative Refinement in LLMs</title>
-      <link>http://localhost:63665/posts/ai/iterativerefinementmodels/</link>
+      <link>http://localhost:1313/posts/ai/iterativerefinementmodels/</link>
       <pubDate>Thu, 07 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/iterativerefinementmodels/</guid>
-      <description>Q to Gemini: Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this&#xA;Gemini A: Yes, this is a fascinating idea!</description>
+      <guid>http://localhost:1313/posts/ai/iterativerefinementmodels/</guid>
+      <description>&lt;p&gt;Q to Gemini:&#xA;Suppose during inference we are at token 65, but it turns out token 23 now has a low probability. There is now a much better token that should be chosen for token 23. Does it make sense to update toekn 23 and throw away all the tokens after token 23 and restart the inference? Do any models do this? How effective would this&lt;/p&gt;&#xA;&lt;p&gt;Gemini A:&#xA;Yes, this is a fascinating idea! While it&amp;rsquo;s not a common mainstream method in LLMs, there&amp;rsquo;s definitely merit and ongoing research exploring similar approaches. Here&amp;rsquo;s a breakdown:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prompt Engineering and In Context Learning</title>
-      <link>http://localhost:63665/posts/ai/promptengineering/</link>
+      <link>http://localhost:1313/posts/ai/promptengineering/</link>
       <pubDate>Thu, 07 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/promptengineering/</guid>
-      <description>Status: Content: 10% Editing 10% Value: Medium&#xA;TODO: Look up arxiv paper on good/bad prompt engineering&#xA;Good prompt engineering is the simplest most accessible way to get value from AI models.&#xA;Guide to Prompting Make prompts as clear and concise as possible Clarify or remove ambiguities. Ensure the who, what, where, why and how are explicit and clearly defined Keep prompts short as feasible Be wary of the lost in the middle effect of long context windows Long prompts are both slower and more expensive than long prompts Add content to the context if it will help with the answer Use prompt completion pairs in the context to provide few shot learning examples Leverage the prompt structures Use the roles that models provide Leverage the system, userr and assistant roles Use instructions to guide the prompt completion Prefer to give instrucitons raher than ask questions Not what is the heaviest element, but&amp;gt; Complete the sentence:&#xD;The heaviest element commonly found in nature is: Your instructions should be at the front for short prompts and at the end for long prompts Use Chain of Thought or Reason Step by Step Experiment with prompts.</description>
+      <guid>http://localhost:1313/posts/ai/promptengineering/</guid>
+      <description>&lt;p&gt;Status: Content: 10% Editing 10% Value: Medium&lt;/p&gt;&#xA;&lt;p&gt;TODO: Look up arxiv paper on good/bad prompt engineering&lt;/p&gt;&#xA;&lt;p&gt;Good prompt engineering is the simplest most accessible way to get value from AI models.&lt;/p&gt;&#xA;&lt;h2 id=&#34;guide-to-prompting&#34;&gt;Guide to Prompting&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make prompts as clear and concise as possible&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clarify or remove ambiguities.&lt;/li&gt;&#xA;&lt;li&gt;Ensure the who, what, where, why and how are explicit and clearly defined&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Keep prompts short as feasible&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Be wary of the lost in the middle effect of long context windows&lt;/li&gt;&#xA;&lt;li&gt;Long prompts are both slower and more expensive than long prompts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Add content to the context if it will help with the answer&lt;/li&gt;&#xA;&lt;li&gt;Use prompt completion pairs in the context to provide few shot learning examples&lt;/li&gt;&#xA;&lt;li&gt;Leverage the prompt structures&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use the roles that models provide&lt;/li&gt;&#xA;&lt;li&gt;Leverage the system, userr and assistant roles&lt;/li&gt;&#xA;&lt;li&gt;Use instructions to guide the prompt completion&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Prefer to give instrucitons raher than ask questions&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Not what is the heaviest element, but&amp;gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Complete the sentence:&#xD;&#xA;The heaviest element commonly found in nature is:&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;Your instructions should be at the front for short prompts and at the end for long prompts&lt;/li&gt;&#xA;&lt;li&gt;Use Chain of Thought or Reason Step by Step&lt;/li&gt;&#xA;&lt;li&gt;Experiment with prompts.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The first prompt may not be the best&lt;/li&gt;&#xA;&lt;li&gt;Understand the subtleties of prompting for each model&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Leverage model paramters&lt;/p&gt;</description>
     </item>
     <item>
       <title>100 Questions to Test Your Knowledge of AWS AI Cloud Services</title>
-      <link>http://localhost:63665/posts/cloud/quizonawsaiservices/</link>
+      <link>http://localhost:1313/posts/cloud/quizonawsaiservices/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/quizonawsaiservices/</guid>
-      <description>100 Questions to Test Your Knowledge of AWS AI Cloud Services&#xA;Define these terms:&#xA;Amazon Bedrock Amazon Titan Agents for Amazon Bedrock Third party Bedrock models Amazon Sagemaker Jumpstart Public models Proprietary models Managed Infrastructure Sagemaker model training Sagemaker model deployment Amazon OpenSearch (k-NN plugin) Amazon Kendra Amazon Aurora/RDS for postgresSQL (pgvector) AWS Trainium AWS Inferentia Amazon CodeWhisperer AWs HealthScribe Generative Bi in Amazon QuickSight When should you use Bedrock and when should you use Sagemaker?</description>
+      <guid>http://localhost:1313/posts/cloud/quizonawsaiservices/</guid>
+      <description>&lt;p&gt;100 Questions to Test Your Knowledge of AWS AI Cloud Services&lt;/p&gt;&#xA;&lt;p&gt;Define these terms:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amazon Bedrock&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amazon Titan&lt;/li&gt;&#xA;&lt;li&gt;Agents for Amazon Bedrock&lt;/li&gt;&#xA;&lt;li&gt;Third party Bedrock models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Amazon Sagemaker&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jumpstart&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Public models&lt;/li&gt;&#xA;&lt;li&gt;Proprietary models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Managed Infrastructure&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sagemaker model training&lt;/li&gt;&#xA;&lt;li&gt;Sagemaker model deployment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Amazon OpenSearch (k-NN plugin)&lt;/li&gt;&#xA;&lt;li&gt;Amazon Kendra&lt;/li&gt;&#xA;&lt;li&gt;Amazon Aurora/RDS for postgresSQL (pgvector)&lt;/li&gt;&#xA;&lt;li&gt;AWS Trainium&lt;/li&gt;&#xA;&lt;li&gt;AWS Inferentia&lt;/li&gt;&#xA;&lt;li&gt;Amazon CodeWhisperer&lt;/li&gt;&#xA;&lt;li&gt;AWs HealthScribe&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Generative Bi in Amazon QuickSight&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;When should you use Bedrock and when should you use Sagemaker?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Explain what each of the follwoing AWS vector store services are and why you might use each of them&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI and Your Career</title>
-      <link>http://localhost:63665/posts/ai/aiandyourcareer/</link>
+      <link>http://localhost:1313/posts/ai/aiandyourcareer/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/aiandyourcareer/</guid>
-      <description>Of course AI is the hottest thing in tech now, so should you go all in or should you be wary when planning your career?</description>
+      <guid>http://localhost:1313/posts/ai/aiandyourcareer/</guid>
+      <description>&lt;p&gt;Of course AI is the hottest thing in tech now, so should you go all in or should you be wary when planning your career?&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Use Cases</title>
-      <link>http://localhost:63665/posts/ai/aiusecases/</link>
+      <link>http://localhost:1313/posts/ai/aiusecases/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/aiusecases/</guid>
-      <description>Replace this with this: Some use cases to consider include:&#xA;Intelligent Search Text summarization Rewriting Information extraction Question answering Detecting toxic or harmful content Classification and content moderation Conversational interface Translation Automated customer-support chatbot Dialog Summarization Content Moderation Personalized Product Videos Source Code Generation Reasoning Mask personally identifiable information Personalized marketing and ads </description>
+      <guid>http://localhost:1313/posts/ai/aiusecases/</guid>
+      <description>&lt;p&gt;Replace this&#xA;&lt;img src=&#34;AIUseCases.png&#34; alt=&#34;alt Soem Use Cases&#34;&gt;&#xA;with this:&#xA;&lt;img src=&#34;AIUseCases.drawio.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Some use cases to consider include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Intelligent Search&lt;/li&gt;&#xA;&lt;li&gt;Text summarization&lt;/li&gt;&#xA;&lt;li&gt;Rewriting&lt;/li&gt;&#xA;&lt;li&gt;Information extraction&lt;/li&gt;&#xA;&lt;li&gt;Question answering&lt;/li&gt;&#xA;&lt;li&gt;Detecting toxic or harmful content&lt;/li&gt;&#xA;&lt;li&gt;Classification and content moderation&lt;/li&gt;&#xA;&lt;li&gt;Conversational interface&lt;/li&gt;&#xA;&lt;li&gt;Translation&lt;/li&gt;&#xA;&lt;li&gt;Automated customer-support chatbot&lt;/li&gt;&#xA;&lt;li&gt;Dialog Summarization&lt;/li&gt;&#xA;&lt;li&gt;Content Moderation&lt;/li&gt;&#xA;&lt;li&gt;Personalized Product Videos&lt;/li&gt;&#xA;&lt;li&gt;Source Code Generation&lt;/li&gt;&#xA;&lt;li&gt;Reasoning&lt;/li&gt;&#xA;&lt;li&gt;Mask personally identifiable information&lt;/li&gt;&#xA;&lt;li&gt;Personalized marketing and ads&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Being Negative In the Workplace</title>
-      <link>http://localhost:63665/posts/beingnegativeintheworkplace/</link>
+      <link>http://localhost:1313/posts/beingnegativeintheworkplace/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/beingnegativeintheworkplace/</guid>
-      <description>Being Negative In the Workplace Oh boy, its really hard to be negative in the workplace, especailly when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.&#xA;What should yyou do if you find yourself in that situation.&#xA;The best solution is to leave. If you can&amp;rsquo;t leave, then you need to find a way to be positive in the workplace.</description>
+      <guid>http://localhost:1313/posts/beingnegativeintheworkplace/</guid>
+      <description>&lt;h2 id=&#34;being-negative-in-the-workplace&#34;&gt;Being Negative In the Workplace&lt;/h2&gt;&#xA;&lt;p&gt;Oh boy, its really hard to be negative in the workplace, especially when you are surrounded by a bunch of pollyanna types that are always looking for the positive in everything or who are afraid of any accountability.&lt;/p&gt;&#xA;&lt;p&gt;What should you do if you find yourself in that situation.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The best solution is to leave.&lt;/li&gt;&#xA;&lt;li&gt;If you can&amp;rsquo;t leave, then you need to find a way to be positive in the workplace.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Best Practices In Architecting AWS Cloud Applications</title>
-      <link>http://localhost:63665/posts/cloud/bestpracticesinarchitectingaws/</link>
+      <link>http://localhost:1313/posts/cloud/bestpracticesinarchitectingaws/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/bestpracticesinarchitectingaws/</guid>
-      <description>Best Practices In Architecting AWS Cloud Applications Sources: https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE</description>
+      <guid>http://localhost:1313/posts/cloud/bestpracticesinarchitectingaws/</guid>
+      <description>&lt;h2 id=&#34;best-practices-in-architecting-aws-cloud-applications&#34;&gt;Best Practices In Architecting AWS Cloud Applications&lt;/h2&gt;&#xA;&lt;p&gt;Sources:&#xA;&lt;a href=&#34;https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE&#34;&gt;https://learning.oreilly.com/library/view/cloud-computing-principles/9780470887998/ch18.html?_ga=2.188552232.1250616195.1709644639-1298335628.1693925591&amp;amp;_gac=1.159689295.1708006412.CjwKCAiAibeuBhAAEiwAiXBoJO0yon0yh8hj74v82NIvrN_5eF2Z-dkQpbBLtHNGLc3XIp9uMJe0hRoCASEQAvD_BwE&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bits and Blueprint</title>
-      <link>http://localhost:63665/posts/bitsandblueprints/</link>
+      <link>http://localhost:1313/posts/bitsandblueprints/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/bitsandblueprints/</guid>
-      <description>Bits and Blueprints Bits and Blueprints is my informal blog, online scrapbook where I write down and explore ideas.&#xA;Its a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on techncial topics of interest to me.&#xA;The purpose is to trabslate thoughts, readings and other informaiton in to some tnagilbe items. Writing is one of the best ways to educate and understand any topic.&#xA;This blog will have some very techncial content that you might find in a design blueprint.</description>
+      <guid>http://localhost:1313/posts/bitsandblueprints/</guid>
+      <description>&lt;h2 id=&#34;bits-and-blueprints&#34;&gt;Bits and Blueprints&lt;/h2&gt;&#xA;&lt;p&gt;Bits and Blueprints is my informal blog, online scrapbook where I write down and explore ideas.&lt;/p&gt;&#xA;&lt;p&gt;Its a collection of semi-finished &amp;rsquo;notes&amp;rsquo; on techncial topics of interest to me.&lt;/p&gt;&#xA;&lt;p&gt;The purpose is to trabslate thoughts, readings and other informaiton in to some tnagilbe items. Writing is one of the best ways to educate and understand any topic.&lt;/p&gt;&#xA;&lt;p&gt;This blog will have some very techncial content that you might find in a design blueprint.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Business Benefits of Cloud Computing</title>
-      <link>http://localhost:63665/posts/cloud/businessbenefitsofcloudcomputing/</link>
+      <link>http://localhost:1313/posts/cloud/businessbenefitsofcloudcomputing/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/businessbenefitsofcloudcomputing/</guid>
-      <description>Business Benefits of Cloud Computing Just in time infrastructure Little Upfront Infrastructure Investment More Efficient Resource Utilization Usage Based Costing Reduced Time to Market </description>
+      <guid>http://localhost:1313/posts/cloud/businessbenefitsofcloudcomputing/</guid>
+      <description>&lt;h2 id=&#34;business-benefits-of-cloud-computing&#34;&gt;Business Benefits of Cloud Computing&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Just in time infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Little Upfront Infrastructure Investment&lt;/li&gt;&#xA;&lt;li&gt;More Efficient Resource Utilization&lt;/li&gt;&#xA;&lt;li&gt;Usage Based Costing&lt;/li&gt;&#xA;&lt;li&gt;Reduced Time to Market&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Data Quality Will Be King in an AI World</title>
-      <link>http://localhost:63665/posts/dataqualitywillbeking/</link>
+      <link>http://localhost:1313/posts/dataqualitywillbeking/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/dataqualitywillbeking/</guid>
-      <description>Data Quality Will be King in an AI World </description>
+      <guid>http://localhost:1313/posts/dataqualitywillbeking/</guid>
+      <description>&lt;h2 id=&#34;data-quality-will-be-king-in-an-ai-world&#34;&gt;Data Quality Will be King in an AI World&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Getting Started with Cloud Based AI</title>
-      <link>http://localhost:63665/posts/cloud/gettingstartedincloudbasedai/</link>
+      <link>http://localhost:1313/posts/cloud/gettingstartedincloudbasedai/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/gettingstartedincloudbasedai/</guid>
-      <description>Getting Started with Cloud Based AI T</description>
+      <guid>http://localhost:1313/posts/cloud/gettingstartedincloudbasedai/</guid>
+      <description>&lt;h2 id=&#34;getting-started-with-cloud-based-ai&#34;&gt;Getting Started with Cloud Based AI&lt;/h2&gt;&#xA;&lt;p&gt;T&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Destroy the Value of a Digital Portfolio</title>
+      <link>http://localhost:1313/posts/destroyvalue/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/destroyvalue/</guid>
+      <description>&lt;p&gt;Outline:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Explain&lt;/li&gt;&#xA;&lt;li&gt;Consequences&lt;/li&gt;&#xA;&lt;li&gt;Causes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Many digital portfolios in large organizations are poorly designed and constructed. They waste valable resources and often contribute little business value.&#xA;What causes this?&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ineffective Strategy&lt;/li&gt;&#xA;&lt;li&gt;Lack of Commitment to the Strategy&lt;/li&gt;&#xA;&lt;li&gt;Bad Engagement with Stakeholders&lt;/li&gt;&#xA;&lt;li&gt;Organizational Misalignment&lt;/li&gt;&#xA;&lt;li&gt;Poor Governance&lt;/li&gt;&#xA;&lt;li&gt;Poor Strategic Alignment&lt;/li&gt;&#xA;&lt;li&gt;Bureaucracy &amp;amp; Micro management&lt;/li&gt;&#xA;&lt;li&gt;Belief in the Hype Train&lt;/li&gt;&#xA;&lt;li&gt;Naive Belief in Vendors&lt;/li&gt;&#xA;&lt;li&gt;Lip Service&lt;/li&gt;&#xA;&lt;li&gt;Misuse of products and platforms&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Creating a good digital strategy is a lot harder than it appears. The reasons include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to use McKinsey SCR framework</title>
-      <link>http://localhost:63665/posts/howtousescrframework/</link>
+      <link>http://localhost:1313/posts/howtousescrframework/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/howtousescrframework/</guid>
-      <description>The Situation-Complication-Resolution (SCR) Framework provides a structure for clearly defining business challenges and outlining strategies and solutions.</description>
+      <guid>http://localhost:1313/posts/howtousescrframework/</guid>
+      <description>&lt;p&gt;The Situation-Complication-Resolution (SCR) Framework provides a structure for clearly defining business challenges and outlining strategies and solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to TOGAF 1</title>
-      <link>http://localhost:63665/posts/ea/togaf/togaf1/</link>
+      <link>http://localhost:1313/posts/ea/togaf/togaf1/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ea/togaf/togaf1/</guid>
+      <guid>http://localhost:1313/posts/ea/togaf/togaf1/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction to TOGAF 1</title>
-      <link>http://localhost:63665/posts/ea/togaf/togaf4/</link>
+      <link>http://localhost:1313/posts/ea/togaf/togaf4/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ea/togaf/togaf4/</guid>
+      <guid>http://localhost:1313/posts/ea/togaf/togaf4/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction to TOGAF 2</title>
-      <link>http://localhost:63665/posts/ea/togaf/togaf2./</link>
+      <link>http://localhost:1313/posts/ea/togaf/togaf2./</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ea/togaf/togaf2./</guid>
-      <description>Signs you are Doing EA Wrong&#xA;EA is Siloed and Isolated </description>
+      <guid>http://localhost:1313/posts/ea/togaf/togaf2./</guid>
+      <description>&lt;p&gt;Signs you are Doing EA Wrong&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;EA is Siloed and Isolated&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Introduction to TOGAF 3</title>
-      <link>http://localhost:63665/posts/ea/togaf/togaf3/</link>
+      <link>http://localhost:1313/posts/ea/togaf/togaf3/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ea/togaf/togaf3/</guid>
-      <description>How to Prioritize EA Work?&#xA;Identify areas with: The highest business impact and risk Most cooperative stakeholders Highest feasibility to Easiest to discover and explain Highest feasibility Highest potential for value increase Common EA Errors Lack of attention to mission, vision, goals and objectives Unrealistic Goals Description Benefits Costs and Risks Feasibility Alignment Higher Productivity Description Benefit Costs and Risks Costs and Risks Feasibility EA and Modelling Issues with EA Models All models involve tradeoffs between complexity, accuracy, and maintainability</description>
+      <guid>http://localhost:1313/posts/ea/togaf/togaf3/</guid>
+      <description>&lt;p&gt;How to Prioritize EA Work?&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Identify areas with:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The highest business impact and risk&lt;/li&gt;&#xA;&lt;li&gt;Most cooperative stakeholders&lt;/li&gt;&#xA;&lt;li&gt;Highest feasibility to Easiest to discover and explain&lt;/li&gt;&#xA;&lt;li&gt;Highest feasibility&lt;/li&gt;&#xA;&lt;li&gt;Highest potential for value increase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-ea-errors&#34;&gt;Common EA Errors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lack of attention to mission, vision, goals and objectives&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Unrealistic&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Goals&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;          &lt;th&gt;Benefits&lt;/th&gt;&#xA;          &lt;th&gt;Costs and Risks&lt;/th&gt;&#xA;          &lt;th&gt;Feasibility&lt;/th&gt;&#xA;          &lt;th&gt;Alignment&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Higher Productivity&lt;/td&gt;&#xA;          &lt;td&gt;Description&lt;/td&gt;&#xA;          &lt;td&gt;Benefit&lt;/td&gt;&#xA;          &lt;td&gt;Costs and Risks&lt;/td&gt;&#xA;          &lt;td&gt;Costs and Risks&lt;/td&gt;&#xA;          &lt;td&gt;Feasibility&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;ea-and-modelling&#34;&gt;EA and Modelling&lt;/h2&gt;&#xA;&lt;h3 id=&#34;issues-with-ea-models&#34;&gt;Issues with EA Models&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;All models involve tradeoffs between complexity, accuracy, and maintainability&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Worst Mistakes In The Cloud</title>
-      <link>http://localhost:63665/posts/cloud/myworstmistakesinthecloud/</link>
+      <link>http://localhost:1313/posts/cloud/myworstmistakesinthecloud/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/myworstmistakesinthecloud/</guid>
-      <description>Cloud Mistakes Here they are:&#xA;Running systems doing nothing Lift and Shift Naive Use of Cloud Storage Poor Planning Weak Governance No Strategy Shiny Object Syndrome Lack of Automation Lack of Monitoring Lack of Testing Lack of Security Lack of Backups Lack of Disaster Recovery Lack of Change Management Lack of Incident Response Lack of Incident Reporting Lack of Incident Review Lack of Incident Lessons Learned Lack of Incident Closure Lack of Incident Root Cause Analysis Lack of Incident Post Mortem Lack of Incident Retrospective Lack of Incident Action Items Lack of Incident Escalation </description>
+      <guid>http://localhost:1313/posts/cloud/myworstmistakesinthecloud/</guid>
+      <description>&lt;h2 id=&#34;cloud-mistakes&#34;&gt;Cloud Mistakes&lt;/h2&gt;&#xA;&lt;p&gt;Here they are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Running systems doing nothing&lt;/li&gt;&#xA;&lt;li&gt;Lift and Shift&lt;/li&gt;&#xA;&lt;li&gt;Naive Use of Cloud Storage&lt;/li&gt;&#xA;&lt;li&gt;Poor Planning&lt;/li&gt;&#xA;&lt;li&gt;Weak Governance&lt;/li&gt;&#xA;&lt;li&gt;No Strategy&lt;/li&gt;&#xA;&lt;li&gt;Shiny Object Syndrome&lt;/li&gt;&#xA;&lt;li&gt;Lack of Automation&lt;/li&gt;&#xA;&lt;li&gt;Lack of Monitoring&lt;/li&gt;&#xA;&lt;li&gt;Lack of Testing&lt;/li&gt;&#xA;&lt;li&gt;Lack of Security&lt;/li&gt;&#xA;&lt;li&gt;Lack of Backups&lt;/li&gt;&#xA;&lt;li&gt;Lack of Disaster Recovery&lt;/li&gt;&#xA;&lt;li&gt;Lack of Change Management&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Response&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Reporting&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Review&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Lessons Learned&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Closure&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Root Cause Analysis&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Post Mortem&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Retrospective&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Action Items&lt;/li&gt;&#xA;&lt;li&gt;Lack of Incident Escalation&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Policy vs Process</title>
+      <link>http://localhost:1313/posts/misc/policyvsprocess/</link>
+      <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/misc/policyvsprocess/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Statement&lt;/li&gt;&#xA;&lt;li&gt;Automated policy enforcement is a key component of a well-designed system, as it helps ensure consistency and adherence to established rules and guidelines.&#39;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Examples:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;All servers will be patched to level x.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Any server that is nto at server X will appear on report Y&#xA;&lt;ul&gt;&#xA;&lt;li&gt;any item on report Y will be reviewed and resolution applied&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Example:&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Server A is at Windows 2016&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Alert raised and logged in Q1 report&lt;/li&gt;&#xA;&lt;li&gt;Reviewers inspect and acknolwedge the report&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Presentation: Leveraging AWS Cloud Services for AI</title>
-      <link>http://localhost:63665/posts/presentations/aws-ai-services-presentation/</link>
+      <link>http://localhost:1313/posts/presentations/aws-ai-services-presentation/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/presentations/aws-ai-services-presentation/</guid>
-      <description>Situation You have an orderly and stable IT infrastructure Complication You want to use AI Setting up AI is hard and expensive Slides showing the high costs of AI models Slide showing skills shortages You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution You want some flexibility and choice in the tools and platforms you use You think that if you don&amp;rsquo;t get going now, you will never catch up Youi require use cases which are: Relatively cheap and easy Deliver real value Can be improved as tools and skills increase Resolution Leverage AWS Bedrock and AWS Sagemaker </description>
+      <guid>http://localhost:1313/posts/presentations/aws-ai-services-presentation/</guid>
+      <description>&lt;h2 id=&#34;situation&#34;&gt;Situation&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You have an orderly and stable IT infrastructure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;complication&#34;&gt;Complication&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You want to use AI&lt;/li&gt;&#xA;&lt;li&gt;Setting up AI is hard and expensive&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Slides showing the high costs of AI models&lt;/li&gt;&#xA;&lt;li&gt;Slide showing skills shortages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution&lt;/li&gt;&#xA;&lt;li&gt;You want some flexibility and choice in the tools and platforms you use&lt;/li&gt;&#xA;&lt;li&gt;You think that if you don&amp;rsquo;t get going now, you will never catch up&lt;/li&gt;&#xA;&lt;li&gt;Youi require use cases which are:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Relatively cheap and easy&lt;/li&gt;&#xA;&lt;li&gt;Deliver real value&lt;/li&gt;&#xA;&lt;li&gt;Can be improved as tools and skills increase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Leverage AWS Bedrock and AWS Sagemaker&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>RAG Chronicles 1</title>
-      <link>http://localhost:63665/posts/ai/rag/rag1/</link>
+      <link>http://localhost:1313/posts/ai/rag/rag1/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/rag/rag1/</guid>
-      <description>RAG Chronicles 1 This is article 1 about building a RAG application.&#xA;Understand the Domain Understand the Customer Choose your tools and platforms Manage your data sources Manage your data pipleine Design your system Build, test and deploy User Experience Monitoring and Feedback Understand the Domain Every human domain has its own special language and terminology&#xA;Figure out how to handle content Understand the Customer Choose your tools and platforms There are already a number of tools out there.</description>
+      <guid>http://localhost:1313/posts/ai/rag/rag1/</guid>
+      <description>&lt;h2 id=&#34;rag-chronicles-1&#34;&gt;RAG Chronicles 1&lt;/h2&gt;&#xA;&lt;p&gt;This is article 1 about building a RAG application.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Understand the Domain&lt;/li&gt;&#xA;&lt;li&gt;Understand the Customer&lt;/li&gt;&#xA;&lt;li&gt;Choose your tools and platforms&lt;/li&gt;&#xA;&lt;li&gt;Manage your data sources&lt;/li&gt;&#xA;&lt;li&gt;Manage your data pipleine&lt;/li&gt;&#xA;&lt;li&gt;Design your system&lt;/li&gt;&#xA;&lt;li&gt;Build, test and deploy&lt;/li&gt;&#xA;&lt;li&gt;User Experience&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and Feedback&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;understand-the-domain&#34;&gt;Understand the Domain&lt;/h3&gt;&#xA;&lt;p&gt;Every human domain has its own special language and terminology&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Figure out how to handle content&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understand-the-customer&#34;&gt;Understand the Customer&lt;/h2&gt;&#xA;&lt;h2 id=&#34;choose-your-tools-and-platforms&#34;&gt;Choose your tools and platforms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There are already a number of tools out there. At this point I would recommend the following:&lt;/li&gt;&#xA;&lt;li&gt;Use llamaindex&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Langchain is an alternative&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Use an off the shelf chatbot. See&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LlamaIndex&lt;/li&gt;&#xA;&lt;li&gt;Vercel&lt;/li&gt;&#xA;&lt;li&gt;Some others&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;GPT-4 is at this point the default, but consider switching to:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mistral&lt;/li&gt;&#xA;&lt;li&gt;Claude 3&lt;/li&gt;&#xA;&lt;li&gt;Google Gemini&lt;/li&gt;&#xA;&lt;li&gt;Llama 3 (if and when it is released)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;When looking at AI hosts and providers, consider the follwoing:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Azure&lt;/li&gt;&#xA;&lt;li&gt;OpenAI&lt;/li&gt;&#xA;&lt;li&gt;AWS/HuggingFace&lt;/li&gt;&#xA;&lt;li&gt;Claude&lt;/li&gt;&#xA;&lt;li&gt;NVIDIA&lt;/li&gt;&#xA;&lt;li&gt;Other&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;manage-your-data-sources&#34;&gt;Manage your data sources&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You  most likely will have dozens of locations where your documents and data is hiding&lt;/li&gt;&#xA;&lt;li&gt;A lot of the data will be poor quality and will need to be filtered or cleaned up&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;manage-your-data-pipelines&#34;&gt;Manage your data pipelines&lt;/h2&gt;&#xA;&lt;h2 id=&#34;design-and-build-your-rag-retrieval-system&#34;&gt;Design and Build your RAG retrieval system&lt;/h2&gt;&#xA;&lt;h2 id=&#34;user-experience&#34;&gt;User Experience&lt;/h2&gt;&#xA;&lt;h2 id=&#34;monitoring-and-feedback&#34;&gt;Monitoring and Feedback&lt;/h2&gt;&#xA;&lt;h2 id=&#34;some-practical-examples&#34;&gt;Some Practical Examples&lt;/h2&gt;&#xA;&lt;p&gt;In this section explain the follwoing:&lt;/p&gt;</description>
     </item>
     <item>
       <title>RAG Chronicles 2</title>
-      <link>http://localhost:63665/posts/ai/rag/rag2/</link>
+      <link>http://localhost:1313/posts/ai/rag/rag2/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/ai/rag/rag2/</guid>
-      <description>RAG Chronicles 2 This is article 2 about building a RAG application.&#xA;RAG Overview RAG logically can be divided into&#xA;Ingestion Service Inference Service Vector Database User or API server The RAG Pipeline Some RAG Concepts Small to Big Retrieval Small to Big Retrieval Description:&#xA;Chunk your documents into small chunks (ie &amp;lsquo;sentences.&amp;rsquo;) Small chunks lead to vectors with &amp;hellip; Find the closest vector to your query Retrieve the selected node and surrounding context When you look up the sentences See https://docs.</description>
+      <guid>http://localhost:1313/posts/ai/rag/rag2/</guid>
+      <description>&lt;h2 id=&#34;rag-chronicles-2&#34;&gt;RAG Chronicles 2&lt;/h2&gt;&#xA;&lt;p&gt;This is article 2 about building a RAG application.&lt;/p&gt;&#xA;&lt;h2 id=&#34;rag-overview&#34;&gt;RAG Overview&lt;/h2&gt;&#xA;&lt;p&gt;RAG logically can be divided into&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ingestion Service&lt;/li&gt;&#xA;&lt;li&gt;Inference Service&lt;/li&gt;&#xA;&lt;li&gt;Vector Database&lt;/li&gt;&#xA;&lt;li&gt;User or API server&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;the-rag-pipeline&#34;&gt;The RAG Pipeline&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;resources/img_6.png&#34; alt=&#34;img_6.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;some-rag-concepts&#34;&gt;Some RAG Concepts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Small to Big Retrieval&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;small-to-big-retrieval&#34;&gt;Small to Big Retrieval&lt;/h4&gt;&#xA;&lt;p&gt;Description:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chunk your documents into small chunks (ie &amp;lsquo;sentences.&amp;rsquo;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Small chunks lead to vectors with &amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Find the closest vector to your query&lt;/li&gt;&#xA;&lt;li&gt;Retrieve the selected node and surrounding context&#xA;When you look up the sentences&#xA;See &lt;a href=&#34;https://docs.llamaindex.ai/en/latest/examples/node_postprocessor/MetadataReplacementDemo.html&#34;&gt;https://docs.llamaindex.ai/en/latest/examples/node_postprocessor/MetadataReplacementDemo.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;resources/img_5.png&#34; alt=&#34;img_5.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>RAG: An Executive Overview</title>
-      <link>http://localhost:63665/posts/presentations/rag-executive-presentation/</link>
+      <link>http://localhost:1313/posts/presentations/rag-executive-presentation/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/presentations/rag-executive-presentation/</guid>
-      <description>Agenda How can RAG be Effectively Used in the Enteprise?&#xA;Limits of LLMs LLMs are powerful but limited Limit 1 Limit 2 RAG solves many of the above problems RAG Aspects Data and documents are identified and catalogued Curators chooses documents and rules Some documents and content are filtered Embeddings and search indexes created require filtering RAG Defined Situation You have an orderly and stable IT infrastructure Complication You want to use AI Setting up AI is hard and expensive Slides showing the high costs of AI models Slide showing skills shortages You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution You want some flexibility and choice in the tools and platforms you use You think that if you don&amp;rsquo;t get going now, you will never catch up Youi require use cases which are: Relatively cheap and easy Deliver real value Can be improved as tools and skills increase Resolution Leverage AWS Bedrock and AWS Sagemaker </description>
+      <guid>http://localhost:1313/posts/presentations/rag-executive-presentation/</guid>
+      <description>&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;&#xA;&lt;p&gt;How can RAG be Effectively Used in the Enteprise?&lt;/p&gt;&#xA;&lt;h2 id=&#34;limits-of-llms&#34;&gt;Limits of LLMs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LLMs are powerful but limited&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Limit 1&lt;/li&gt;&#xA;&lt;li&gt;Limit 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;RAG solves many of the above problems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rag-aspects&#34;&gt;RAG Aspects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data and documents are identified and catalogued&lt;/li&gt;&#xA;&lt;li&gt;Curators chooses documents and rules&lt;/li&gt;&#xA;&lt;li&gt;Some documents and content are filtered&lt;/li&gt;&#xA;&lt;li&gt;Embeddings and search indexes created&lt;/li&gt;&#xA;&lt;li&gt;require filtering&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rag-defined&#34;&gt;RAG Defined&lt;/h2&gt;&#xA;&lt;h2 id=&#34;situation&#34;&gt;Situation&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You have an orderly and stable IT infrastructure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;complication&#34;&gt;Complication&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You want to use AI&lt;/li&gt;&#xA;&lt;li&gt;Setting up AI is hard and expensive&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Slides showing the high costs of AI models&lt;/li&gt;&#xA;&lt;li&gt;Slide showing skills shortages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;You don&amp;rsquo;t have time, skills and expertise to build your own in-house solution&lt;/li&gt;&#xA;&lt;li&gt;You want some flexibility and choice in the tools and platforms you use&lt;/li&gt;&#xA;&lt;li&gt;You think that if you don&amp;rsquo;t get going now, you will never catch up&lt;/li&gt;&#xA;&lt;li&gt;Youi require use cases which are:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Relatively cheap and easy&lt;/li&gt;&#xA;&lt;li&gt;Deliver real value&lt;/li&gt;&#xA;&lt;li&gt;Can be improved as tools and skills increase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Leverage AWS Bedrock and AWS Sagemaker&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Ten Reasons To Regret Cloud Adoption</title>
-      <link>http://localhost:63665/posts/cloud/reasonstoavoidthecloud/</link>
+      <link>http://localhost:1313/posts/cloud/reasonstoavoidthecloud/</link>
       <pubDate>Tue, 05 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/reasonstoavoidthecloud/</guid>
-      <description>Plan:&#xA;ten specific reasons people have regretted going to the cloud Causes of why this happened How to avoid this Ten Reasons People Have Regretted Going to the Cloud Total costs did not actually go down Minimal savings on existing on-premise data centers and workloads Existing staff did not actually increase capacity and workload No noticeable improvement in service levels (availability, latency, etc) No increase in speed to market or value No noticeable improvement in security Causes:</description>
+      <guid>http://localhost:1313/posts/cloud/reasonstoavoidthecloud/</guid>
+      <description>&lt;p&gt;Plan:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ten specific reasons people have regretted going to the cloud&lt;/li&gt;&#xA;&lt;li&gt;Causes of why this happened&lt;/li&gt;&#xA;&lt;li&gt;How to avoid this&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ten-reasons-people-have-regretted-going-to-the-cloud&#34;&gt;Ten Reasons People Have Regretted Going to the Cloud&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Total costs did not actually go down&lt;/li&gt;&#xA;&lt;li&gt;Minimal savings on existing on-premise data centers and workloads&lt;/li&gt;&#xA;&lt;li&gt;Existing staff did not actually increase capacity and workload&lt;/li&gt;&#xA;&lt;li&gt;No noticeable improvement in service levels (availability, latency, etc)&lt;/li&gt;&#xA;&lt;li&gt;No increase in speed to market or value&lt;/li&gt;&#xA;&lt;li&gt;No noticeable improvement in security&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Causes:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Storage</title>
-      <link>http://localhost:63665/posts/cloud/cloudstorage/</link>
+      <link>http://localhost:1313/posts/cloud/cloudstorage/</link>
       <pubDate>Mon, 04 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/cloud/cloudstorage/</guid>
-      <description>Cloud Storage When deciding if , when and how to store your data, it is important to understand the different cloud storage options available.</description>
+      <guid>http://localhost:1313/posts/cloud/cloudstorage/</guid>
+      <description>&lt;h2 id=&#34;cloud-storage&#34;&gt;Cloud Storage&lt;/h2&gt;&#xA;&lt;p&gt;When deciding if , when and how to store your data, it is important to understand the different cloud storage options available.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Corporate IT is a Kitchen</title>
-      <link>http://localhost:63665/posts/itkitchen/</link>
+      <link>http://localhost:1313/posts/itkitchen/</link>
       <pubDate>Sun, 03 Mar 2024 08:50:13 -0500</pubDate>
-      <guid>http://localhost:63665/posts/itkitchen/</guid>
-      <description>Corporate IT is Like a Home Kitchen Internal IT departments are like the home cook that prepares the meals for the family.&#xA;What you will find:&#xA;Everyone will complain about your cooking and the meals you make. A few thank yous is all you can expect Everyone will want their own special meals. One person will want vegetarian only, and another will demand more meat. Evertone will ask for more spicy or less spicy.</description>
+      <guid>http://localhost:1313/posts/itkitchen/</guid>
+      <description>&lt;h2 id=&#34;corporate-it-is-like-a-home-kitchen&#34;&gt;Corporate IT is Like a Home Kitchen&lt;/h2&gt;&#xA;&lt;p&gt;Internal IT departments are like the home cook that prepares the meals for the family.&lt;/p&gt;&#xA;&lt;p&gt;What you will find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Everyone will complain about your cooking and the meals you make. A few thank yous is all you can expect&lt;/li&gt;&#xA;&lt;li&gt;Everyone will want their own special meals. One person will want vegetarian only, and another will demand more meat. Evertone will ask for more spicy or less spicy.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Will ask for meals that are hard to make, take hours to cook, require expensive ingredients, not in season, etc&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Some of the family will skip dinner altogether and eat out or eat at their friend&amp;rsquo;s house. Their dinner will go to waste&lt;/li&gt;&#xA;&lt;li&gt;Some of the family will let their dinner get cold (and then complain about it)&lt;/li&gt;&#xA;&lt;li&gt;Everyone will give you their recipes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;May start cooking with YOUR kitchen, ingredients, using your pots and pans&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Noone Won&amp;rsquo;t help clean up and wash the dishes&lt;/li&gt;&#xA;&lt;li&gt;Your kitchen equipment is getting old, becuase noone wants to pay for a new stove or a new set of pots and pans&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ideas:&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63665/k8s-smaple/</link>
+      <link>http://localhost:1313/k8s-smaple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63665/k8s-smaple/</guid>
-      <description>graph LR&#xD;subgraph Authentication [&#xD;API_Gateway [API Gateway]&#xD;Keycloak [Keycloak]&#xD;]&#xD;subgraph Application_Tier [&#xD;Load_Balancer [Load Balancer]&#xD;Web_Server_1 [Web Server (3x)] --&amp;gt; Load_Balancer&#xD;API_Server_1 [API Server (2x)] --&amp;gt; Load_Balancer&#xD;]&#xD;subgraph Database [&#xD;Database [Database]&#xD;]&#xD;Authentication --&amp;gt; Application_Tier&#xD;Application_Tier --&amp;gt; Database </description>
+      <guid>http://localhost:1313/k8s-smaple/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph LR&#xD;&#xA;    subgraph Authentication [&#xD;&#xA;        API_Gateway [API Gateway]&#xD;&#xA;        Keycloak [Keycloak]&#xD;&#xA;    ]&#xD;&#xA;    subgraph Application_Tier [&#xD;&#xA;        Load_Balancer [Load Balancer]&#xD;&#xA;        Web_Server_1 [Web Server (3x)] --&amp;gt; Load_Balancer&#xD;&#xA;        API_Server_1 [API Server (2x)] --&amp;gt; Load_Balancer&#xD;&#xA;    ]&#xD;&#xA;    subgraph Database [&#xD;&#xA;        Database [Database]&#xD;&#xA;    ]&#xD;&#xA;    Authentication --&amp;gt; Application_Tier&#xD;&#xA;    Application_Tier --&amp;gt; Database&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

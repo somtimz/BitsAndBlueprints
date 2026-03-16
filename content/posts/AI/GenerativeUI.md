@@ -12,19 +12,17 @@ title = 'Agents'
 - Instead of designing components and buttons, UI design will focus on user goals and obey constraints
   ![alt text](FutureWithGenUI.png)
 
-| |Generative UI|AI-Assisted Design|
+||Generative UI|AI-Assisted Design|
 |-|-------------|------------------|
 |Who benefits?|End users|Designers and Product Teams|
-|What is the output?|A dynamic, custom interface generated in real time for a specific end user|AI-generated UI designs and code| 
+|What is the output?|A dynamic, custom interface generated in real time for a specific end user|AI-generated UI designs and code|
 |What is the impact?|Every end user interacts with an interface built just for them and their needs in that moment.|Product teams can significantly accelerate the ideation, design, and implementation of interfaces|
 
 - Some Early Tools
   - UIzard
   - Canonic
   - v0
--  
+
 Generative AI tools (like ChatGPT, Claude, etc.) have deep-rooted usability problems. Their problems led to the development of a new role — the “prompt engineer.”, who do nothing but talk nicely to the LLM in order to the right results.
 
-Micro-interactions convey system status, support error prevention, and communicate brand. They are initiated by a trigger, are single-purpose, and can make the experience engaging. 
-
-
+Micro-interactions convey system status, support error prevention, and communicate brand. They are initiated by a trigger, are single-purpose, and can make the experience engaging.

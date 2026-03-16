@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en-us"ZgotmplZ>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>API Design | An eclectic mix of technical content!</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Purpose of APIs
+
+Deliver integration between systems
+
+Principles of API Design
+Effective Web API design requires understanding and applying three important elements:
+
+Business capabilities: The underlying business capabilities should reflected in the API design.
+
+Why: Will deliver the services clients want and need
+
+
+Product thinking: The focus of an API product is
+on meeting market needs in a scalable and cost-effective way.
+Why: Increases reuse and flexibility
+Developer experience: The developer must find the API easy to use and meet their needs
+
+Why: A great DX is essential to the success of an API and will help develop business value faster
+
+
+
+Another View of Principles
+
+Principle 1: Collaborative API design
+is essential for a good API.
+
+Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone
+Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC
+Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13)
+
+
+Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change.
+
+Goals of API Design
+
+Deliver outcomes and experiences
+Optimized network access
+Programming language independence.
+Stable over time
+
+What is API Design About?
+
+Communicaiton across network boundaries
+
+Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness
+
+
+Communication with developers
+Communication with the marketplace
+
+Applicable Principles of API Design
+
+Modularization
+Encapsulation
+Loose coupling
+High cohesion
+
+Other best practices:">
+    <meta name="generator" content="Hugo 0.157.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/softwareengineering/apidesign/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/softwareengineering/apidesign/">
+  <meta property="og:site_name" content="An eclectic mix of technical content!">
+  <meta property="og:title" content="API Design">
+  <meta property="og:description" content="Purpose of APIs Deliver integration between systems Principles of API Design Effective Web API design requires understanding and applying three important elements:
+Business capabilities: The underlying business capabilities should reflected in the API design. Why: Will deliver the services clients want and need Product thinking: The focus of an API product is on meeting market needs in a scalable and cost-effective way. Why: Increases reuse and flexibility Developer experience: The developer must find the API easy to use and meet their needs Why: A great DX is essential to the success of an API and will help develop business value faster Another View of Principles Principle 1: Collaborative API design is essential for a good API. Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13) Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change. Goals of API Design Deliver outcomes and experiences Optimized network access Programming language independence. Stable over time What is API Design About? Communicaiton across network boundaries Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness Communication with developers Communication with the marketplace Applicable Principles of API Design Modularization Encapsulation Loose coupling High cohesion Other best practices:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-04-05T08:50:13-05:00">
+    <meta property="article:modified_time" content="2024-04-05T08:50:13-05:00">
+
+  <meta itemprop="name" content="API Design">
+  <meta itemprop="description" content="Purpose of APIs Deliver integration between systems Principles of API Design Effective Web API design requires understanding and applying three important elements:
+Business capabilities: The underlying business capabilities should reflected in the API design. Why: Will deliver the services clients want and need Product thinking: The focus of an API product is on meeting market needs in a scalable and cost-effective way. Why: Increases reuse and flexibility Developer experience: The developer must find the API easy to use and meet their needs Why: A great DX is essential to the success of an API and will help develop business value faster Another View of Principles Principle 1: Collaborative API design is essential for a good API. Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13) Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change. Goals of API Design Deliver outcomes and experiences Optimized network access Programming language independence. Stable over time What is API Design About? Communicaiton across network boundaries Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness Communication with developers Communication with the marketplace Applicable Principles of API Design Modularization Encapsulation Loose coupling High cohesion Other best practices:">
+  <meta itemprop="datePublished" content="2024-04-05T08:50:13-05:00">
+  <meta itemprop="dateModified" content="2024-04-05T08:50:13-05:00">
+  <meta itemprop="wordCount" content="765">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="API Design">
+  <meta name="twitter:description" content="Purpose of APIs Deliver integration between systems Principles of API Design Effective Web API design requires understanding and applying three important elements:
+Business capabilities: The underlying business capabilities should reflected in the API design. Why: Will deliver the services clients want and need Product thinking: The focus of an API product is on meeting market needs in a scalable and cost-effective way. Why: Increases reuse and flexibility Developer experience: The developer must find the API easy to use and meet their needs Why: A great DX is essential to the success of an API and will help develop business value faster Another View of Principles Principle 1: Collaborative API design is essential for a good API. Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13) Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change. Goals of API Design Deliver outcomes and experiences Optimized network access Programming language independence. Stable over time What is API Design About? Communicaiton across network boundaries Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness Communication with developers Communication with the marketplace Applicable Principles of API Design Modularization Encapsulation Loose coupling High cohesion Other best practices:">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        An eclectic mix of technical content!
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">API Design</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-04-05T08:50:13-05:00">April 5, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="purpose-of-apis">Purpose of APIs</h2>
+<ul>
+<li>Deliver integration between systems</li>
+</ul>
+<h2 id="principles-of-api-design">Principles of API Design</h2>
+<p>Effective Web API design requires understanding and applying three important elements:</p>
+<ul>
+<li>Business capabilities: The underlying business capabilities should reflected in the API design.
+<ul>
+<li>Why: Will deliver the services clients want and need</li>
+</ul>
+</li>
+<li>Product thinking: The focus of an API product is
+on meeting market needs in a scalable and cost-effective way.
+Why: Increases reuse and flexibility</li>
+<li>Developer experience: The developer must find the API easy to use and meet their needs
+<ul>
+<li>Why: A great DX is essential to the success of an API and will help develop business value faster</li>
+</ul>
+</li>
+</ul>
+<h2 id="another-view-of-principles">Another View of Principles</h2>
+<ul>
+<li>Principle 1: Collaborative API design
+is essential for a good API.
+<ul>
+<li>Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone</li>
+<li>Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC</li>
+<li>Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13)</li>
+</ul>
+</li>
+<li>Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change.</li>
+</ul>
+<h2 id="goals-of-api-design">Goals of API Design</h2>
+<ul>
+<li>Deliver outcomes and experiences</li>
+<li>Optimized network access</li>
+<li>Programming language independence.</li>
+<li>Stable over time</li>
+</ul>
+<h2 id="what-is-api-design-about">What is API Design About?</h2>
+<ul>
+<li>Communicaiton across network boundaries
+<ul>
+<li>Consider protocol(HTTP, REST, GraphQL, gRPC, MQTT, AMQP), chattiness</li>
+</ul>
+</li>
+<li>Communication with developers</li>
+<li>Communication with the marketplace</li>
+</ul>
+<h2 id="applicable-principles-of-api-design">Applicable Principles of API Design</h2>
+<ul>
+<li>Modularization</li>
+<li>Encapsulation</li>
+<li>Loose coupling</li>
+<li>High cohesion</li>
+</ul>
+<p>Other best practices:</p>
+<ul>
+<li>Focus on resources
+<ul>
+<li>Don&rsquo;t confuse resources with data tables or domain objects</li>
+</ul>
+</li>
+<li>Focus on the design and exchnage of messages</li>
+<li>Consider how the API might change if the client requirements changed
+<ul>
+<li>eg change to a different consumer (mobile app, chatbot, etc)</li>
+<li>eg change to a different use case</li>
+</ul>
+</li>
+</ul>
+<h3 id="things-to-avoid">Things to Avoid</h3>
+<ul>
+<li>
+<p>APIs that don&rsquo;t align with the underlying business capabilities</p>
+</li>
+<li>
+<p>Custom APIs that are intended for a very limited set of clients and use cases</p>
+</li>
+<li>
+<p>Not enough feedback from the eventual clients</p>
+</li>
+<li>
+<p>Implementation is difficult without the original developers around</p>
+</li>
+<li>
+<p>Poor documentation</p>
+</li>
+<li>
+<p>API is not divided into cohesive consistent packages</p>
+</li>
+<li>
+<p>Inconsistency in organization, naming, granularity, capabilities exposed, protocols, etc</p>
+</li>
+<li>
+<p>Implementation details (language, platform, data model) are evident in the API</p>
+</li>
+<li>
+<p>Tightly coupled code</p>
+</li>
+<li>
+<p>Lack of cohesion</p>
+</li>
+<li>
+<p>Using the data model as the basis of the API design</p>
+<ul>
+<li>Why: Data models may change over time to support better performance. Don&rsquo;t base the APIs on the data model</li>
+</ul>
+</li>
+<li>
+<p>Excessive network chattiness caused by very fine grained granularity</p>
+</li>
+<li>
+<p>Exposing a domain object as a resource:</p>
+</li>
+<li>
+<table>
+  <thead>
+      <tr>
+          <th>Why:</th>
+      </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</li>
+</ul>
+<h2 id="common-protocols">Common Protocols</h2>
+<ol>
+<li>
+<p>REST (Representational State Transfer)</p>
+<ul>
+<li>Architectural Style: Resource-based design and stateless interactions.</li>
+<li>HTTP Verbs: Leverages HTTP methods (GET, POST, PUT, DELETE) for CRUD operations.</li>
+<li>Flexibility: Offers flexibility in data formats (JSON, XML, etc.).</li>
+</ul>
+</li>
+<li>
+<p>SOAP (Simple Object Access Protocol)</p>
+<ul>
+<li>XML-Based: Employs XML for data - formatting, making it quite structured and strict.</li>
+<li>WSDL: Uses Web Services Description Language (WSDL) to define the API&rsquo;s structure and operations in detail.</li>
+<li>Well-Suited For: Enterprise applications, formal contracts, and scenarios where strict data consistency is paramount.</li>
+</ul>
+</li>
+<li>
+<p>GraphQL:</p>
+<ul>
+<li>Flexible Queries: Lets clients ask for the precise data they need in a single request, minimizing over-fetching.</li>
+<li>Schema-Driven: Relies on a schema to define data types and relationships.</li>
+<li>Well-suited for: Situations with complex data relationships or when the client needs granular control over fetched data.</li>
+</ul>
+</li>
+<li>
+<p>gRPC:</p>
+<ul>
+<li>Remote Procedure Calls: Employs an RPC (Remote Procedure Call) framework.</li>
+<li>Efficient: Uses Protocol Buffers (binary data format) for compact data encoding, enhancing speed.</li>
+<li>Well-suited for: Microservices architectures, internal systems with high-performance demands, and real-time communication.</li>
+</ul>
+</li>
+<li>
+<p>WebSockets:</p>
+</li>
+</ol>
+<ul>
+<li><strong>Full-Duplex Communication:</strong> Enables persistent, bidirectional communication between client and server.</li>
+<li><strong>Real-time Updates:</strong> Ideal for building chat systems, dashboards with real-time data, or any application needing instant updates.</li>
+<li><strong>Well-suited for:</strong> Use cases where immediate updates and low latency are key.</li>
+</ul>
+<h2 id="other-noteworthy-protocols">Other Noteworthy Protocols</h2>
+<ul>
+<li><strong>WebHooks:</strong> Allow servers to &ldquo;push&rdquo; updates to subscribed clients rather than clients needing to poll for changes.</li>
+<li><strong>SSE (Server-Sent Events):</strong> A one-way communication protocol allowing servers to stream updates to clients.</li>
+</ul>
+<h2 id="choosing-the-right-one">Choosing the Right One</h2>
+<p>The best API protocol depends heavily on your project&rsquo;s requirements:</p>
+<ul>
+<li><strong>Need strict rules and well-defined data structures?</strong>  SOAP might be a good fit.</li>
+<li><strong>Flexibility in queries and minimizing data over fetching a priority?</strong> GraphQL could be your choice.</li>
+<li><strong>Speed and efficiency a top concern?</strong> gRPC is worth considering.</li>
+<li><strong>Real-time communication is a must-have?</strong> Look into WebSockets.</li>
+</ul>
+<p>Let me know if you&rsquo;d like a deeper dive into a specific protocol!</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  An eclectic mix of technical content! 2026 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

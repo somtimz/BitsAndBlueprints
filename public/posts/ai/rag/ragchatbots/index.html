@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63665&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us"ZgotmplZ>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -8,14 +8,44 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="TODO: Organize into a series of RAG based
 If I was to build a course
-Very simple getting started Purpose of this post:
-To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions ">
-    <meta name="generator" content="Hugo 0.123.7">
+
+Very simple getting started
+
+Purpose of this post:
+
+To document the process of building a RAG based chatbot
+Define the issues
+
+Minimum Reqs
+
+ask a question, get an answer from LLM
+ask a question, get an answer from LLM &#43; RAG
+
+More Reqs
+
+User login
+Personalized
+
+Profile
+Preferences
+Prompt library
+Chat history
+
+
+Multichannel
+
+Support email in/out
+Support a batch of questions
+
+
+">
+    <meta name="generator" content="Hugo 0.157.0">
     
     
     
     
       <meta name="robots" content="noindex, nofollow">
+    
     
 
     
@@ -33,31 +63,36 @@ To document the process of building a RAG based chatbot Define the issues Minimu
     
 
     
-      <link rel="canonical" href="http://localhost:63665/posts/ai/rag/ragchatbots/">
+      <link rel="canonical" href="http://localhost:1313/posts/ai/rag/ragchatbots/">
     
 
-    <meta property="og:title" content="RAG Based ChatBots" />
-<meta property="og:description" content="TODO: Organize into a series of RAG based
+    <meta property="og:url" content="http://localhost:1313/posts/ai/rag/ragchatbots/">
+  <meta property="og:site_name" content="An eclectic mix of technical content!">
+  <meta property="og:title" content="RAG Based ChatBots">
+  <meta property="og:description" content="TODO: Organize into a series of RAG based
 If I was to build a course
 Very simple getting started Purpose of this post:
-To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:63665/posts/ai/rag/ragchatbots/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-09T09:21:20-05:00" />
-<meta property="article:modified_time" content="2024-03-09T09:21:20-05:00" />
+To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-03-09T09:21:20-05:00">
+    <meta property="article:modified_time" content="2024-03-09T09:21:20-05:00">
 
-<meta itemprop="name" content="RAG Based ChatBots">
-<meta itemprop="description" content="TODO: Organize into a series of RAG based
+  <meta itemprop="name" content="RAG Based ChatBots">
+  <meta itemprop="description" content="TODO: Organize into a series of RAG based
 If I was to build a course
 Very simple getting started Purpose of this post:
-To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions "><meta itemprop="datePublished" content="2024-03-09T09:21:20-05:00" />
-<meta itemprop="dateModified" content="2024-03-09T09:21:20-05:00" />
-<meta itemprop="wordCount" content="76">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="RAG Based ChatBots"/>
-<meta name="twitter:description" content="TODO: Organize into a series of RAG based
+To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions">
+  <meta itemprop="datePublished" content="2024-03-09T09:21:20-05:00">
+  <meta itemprop="dateModified" content="2024-03-09T09:21:20-05:00">
+  <meta itemprop="wordCount" content="76">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RAG Based ChatBots">
+  <meta name="twitter:description" content="TODO: Organize into a series of RAG based
 If I was to build a course
 Very simple getting started Purpose of this post:
-To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions "/>
+To document the process of building a RAG based chatbot Define the issues Minimum Reqs ask a question, get an answer from LLM ask a question, get an answer from LLM &#43; RAG More Reqs User login Personalized Profile Preferences Prompt library Chat history Multichannel Support email in/out Support a batch of questions">
 
 	
   </head>
@@ -139,15 +174,13 @@ To document the process of building a RAG based chatbot Define the issues Minimu
 <ul>
 <li>To document the process of building a RAG based chatbot</li>
 <li>Define the issues</li>
-<li></li>
 </ul>
-<h1 id="minimum-reqs">Minimum Reqs</h1>
+<h2 id="minimum-reqs">Minimum Reqs</h2>
 <ul>
 <li>ask a question, get an answer from LLM</li>
 <li>ask a question, get an answer from LLM + RAG</li>
-<li></li>
 </ul>
-<h1 id="more-reqs">More Reqs</h1>
+<h2 id="more-reqs">More Reqs</h2>
 <ul>
 <li>User login</li>
 <li>Personalized
@@ -186,8 +219,8 @@ To document the process of building a RAG based chatbot Define the issues Minimu
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:63665/" >
-    &copy;  An eclectic mix of technical content! 2024 
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  An eclectic mix of technical content! 2026 
   </a>
     <div>
 <div class="ananke-socials">

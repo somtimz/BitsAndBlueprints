@@ -27,7 +27,7 @@ is essential for a good API.
   - Principle 2: API design starts with an outcome-based focus. A focus on the outcome ensures the API delivers value to everyone
   - Principle 3: Select the API design elements that match the need. Trying to find the perfect API style is a fruitless endeavor. Instead, seek to understand and apply the API elements appropriate for the need, whether that is REST, GraphQL or gRPC
   - Principle 4: API documentation is the most important user interface for developers. Therefore, API documentation should be first class and not left as a last-minute task. (Chapter 13)
-  - Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change.
+- Principle 5: APIs are forever. Thoughtful API design combined with an evolutionary design approach makes APIs resilient to change.
 
 ## Goals of API Design
 
@@ -59,7 +59,7 @@ Other best practices:
   - eg change to a different consumer (mobile app, chatbot, etc)
   - eg change to a different use case
 
-## Things to Avoid
+### Things to Avoid
 
 - APIs that don't align with the underlying business capabilities
 - Custom APIs that are intended for a very limited set of clients and use cases
@@ -76,10 +76,10 @@ Other best practices:
   - Why: Data models may change over time to support better performance. Don't base the APIs on the data model
 - Excessive network chattiness caused by very fine grained granularity
 - Exposing a domain object as a resource:
-  - Why:
+- Why:
 -
 
-# Common Protocols
+## Common Protocols
 
 1. REST (Representational State Transfer)
    - Architectural Style: Resource-based design and stateless interactions.
@@ -88,36 +88,37 @@ Other best practices:
 
 2. SOAP (Simple Object Access Protocol)
    - XML-Based: Employs XML for data - formatting, making it quite structured and strict.
-  - WSDL: Uses Web Services Description Language (WSDL) to define the API's structure and operations in detail.
-   - Well-Suited For:** Enterprise applications, formal contracts, and scenarios where strict data consistency is paramount.
+   - WSDL: Uses Web Services Description Language (WSDL) to define the API's structure and operations in detail.
+   - Well-Suited For: Enterprise applications, formal contracts, and scenarios where strict data consistency is paramount.
+
 3. GraphQL:
    - Flexible Queries: Lets clients ask for the precise data they need in a single request, minimizing over-fetching.
    - Schema-Driven: Relies on a schema to define data types and relationships.
-    - Well-suited for:  Situations with complex data relationships or when the client needs granular control over fetched data.
+   - Well-suited for: Situations with complex data relationships or when the client needs granular control over fetched data.
 
 4. gRPC:
-   - Remote Procedure Calls:** Employs an RPC (Remote Procedure Call) framework.
+   - Remote Procedure Calls: Employs an RPC (Remote Procedure Call) framework.
    - Efficient: Uses Protocol Buffers (binary data format) for compact data encoding, enhancing speed.
-   -Well-suited for: Microservices architectures, internal systems with high-performance demands, and real-time communication.
+   - Well-suited for: Microservices architectures, internal systems with high-performance demands, and real-time communication.
 
-4. WebSockets**
+5. WebSockets:
 
-* **Full-Duplex Communication:** Enables persistent, bidirectional communication between client and server.
-* **Real-time Updates:** Ideal for building chat systems, dashboards with real-time data, or any application needing instant updates.
-* **Well-suited for:** Use cases where immediate updates and low latency are key.
+- **Full-Duplex Communication:** Enables persistent, bidirectional communication between client and server.
+- **Real-time Updates:** Ideal for building chat systems, dashboards with real-time data, or any application needing instant updates.
+- **Well-suited for:** Use cases where immediate updates and low latency are key.
 
-**Other Noteworthy Protocols**
+## Other Noteworthy Protocols
 
-* **WebHooks:** Allow servers to "push" updates to subscribed clients rather than clients needing to poll for changes.
-* **SSE (Server-Sent Events):** A one-way communication protocol allowing servers to stream updates to clients.
+- **WebHooks:** Allow servers to "push" updates to subscribed clients rather than clients needing to poll for changes.
+- **SSE (Server-Sent Events):** A one-way communication protocol allowing servers to stream updates to clients.
 
-**Choosing the Right One**
+## Choosing the Right One
 
 The best API protocol depends heavily on your project's requirements:
 
-* **Need strict rules and well-defined data structures?**  SOAP might be a good fit.
-* **Flexibility in queries and minimizing data over fetching a priority?** GraphQL could be your choice.
-* **Speed and efficiency a top concern?** gRPC is worth considering.
-* **Real-time communication is a must-have?** Look into WebSockets.
+- **Need strict rules and well-defined data structures?**  SOAP might be a good fit.
+- **Flexibility in queries and minimizing data over fetching a priority?** GraphQL could be your choice.
+- **Speed and efficiency a top concern?** gRPC is worth considering.
+- **Real-time communication is a must-have?** Look into WebSockets.
 
-Let me know if you'd like a deeper dive into a specific protocol! 
+Let me know if you'd like a deeper dive into a specific protocol!

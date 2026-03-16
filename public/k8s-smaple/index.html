@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63665&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us"ZgotmplZ>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>An eclectic mix of technical content!</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database ">
-    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="description" content="graph LR
+    subgraph Authentication [
+        API_Gateway [API Gateway]
+        Keycloak [Keycloak]
+    ]
+    subgraph Application_Tier [
+        Load_Balancer [Load Balancer]
+        Web_Server_1 [Web Server (3x)] --&gt; Load_Balancer
+        API_Server_1 [API Server (2x)] --&gt; Load_Balancer
+    ]
+    subgraph Database [
+        Database [Database]
+    ]
+    Authentication --&gt; Application_Tier
+    Application_Tier --&gt; Database
+">
+    <meta name="generator" content="Hugo 0.157.0">
     
     
     
     
       <meta name="robots" content="noindex, nofollow">
+    
     
 
     
@@ -30,22 +46,22 @@
     
 
     
-      <link rel="canonical" href="http://localhost:63665/k8s-smaple/">
+      <link rel="canonical" href="http://localhost:1313/k8s-smaple/">
     
 
-    <meta property="og:title" content="" />
-<meta property="og:description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:63665/k8s-smaple/" /><meta property="article:section" content="" />
+    <meta property="og:url" content="http://localhost:1313/k8s-smaple/">
+  <meta property="og:site_name" content="An eclectic mix of technical content!">
+  <meta property="og:title" content="An eclectic mix of technical content!">
+  <meta property="og:description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
 
-
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database ">
-
-<meta itemprop="wordCount" content="42">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database "/>
+  <meta itemprop="name" content="An eclectic mix of technical content!">
+  <meta itemprop="description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database">
+  <meta itemprop="wordCount" content="42">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="An eclectic mix of technical content!">
+  <meta name="twitter:description" content="graph LRsubgraph Authentication [API_Gateway [API Gateway]Keycloak [Keycloak]]subgraph Application_Tier [Load_Balancer [Load Balancer]Web_Server_1 [Web Server (3x)] --&gt; Load_BalancerAPI_Server_1 [API Server (2x)] --&gt; Load_Balancer]subgraph Database [Database [Database]]Authentication --&gt; Application_TierApplication_Tier --&gt; Database">
 
 	
   </head>
@@ -53,6 +69,8 @@
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
   <header>
     <div class="bg-black">
@@ -80,17 +98,41 @@
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
-      <header>
-        <h1 class="f1">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
           
-        </h1>
-      </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph LR
+        An eclectic mix of technical content!
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph LR
     subgraph Authentication [
         API_Gateway [API Gateway]
         Keycloak [Keycloak]
@@ -105,16 +147,29 @@
     ]
     Authentication --&gt; Application_Tier
     Application_Tier --&gt; Database
-</code></pre>
+</code></pre><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
       </div>
-    </article>
-  </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:63665/" >
-    &copy;  An eclectic mix of technical content! 2024 
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  An eclectic mix of technical content! 2026 
   </a>
     <div>
 <div class="ananke-socials">
